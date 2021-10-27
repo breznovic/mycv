@@ -1,14 +1,14 @@
 import React from 'react'
-import './Home.css'
+import './Contact.scss'
 
-const Home = () => {
+const Contact = () => {
     return (
         <div>
-            <div>
+            <div className='contact'>
             
             </div>
         </div>
     )
 }
 
-export default Home
+export default Contact
