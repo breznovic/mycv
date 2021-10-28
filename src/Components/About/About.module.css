@@ -1,0 +1,12 @@
+.aboutMe {
+    background-color: black;
+}
+
+.aboutMe .container .photo .me {
+height: 500px;
+border-radius: 10%;
+}
+
+.aboutMe .container {
+    display: flex;
+}
