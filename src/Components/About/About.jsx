@@ -5,7 +5,7 @@ import me from '../../Images/me.jpg'
 
 const About = () => {
     return (
-        <div className={classes.aboutMe}>
+        <div className={classes.aboutMe} id='about'>
             <PageHeader title={'About Me'} />
             <div className={classes.container}>
             <div className={classes.text}>

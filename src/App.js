@@ -4,8 +4,8 @@ import Navbar from './Components/Navbar/Navbar'
 import Home from './Components/Home/Home'
 import About from './Components/About/About'
 import Skills from './Components/Skills/Skills'
-import YouTube from './Components/YouTube/YouTube'
 import Contact from './Components/Contact/Contact'
+import GitHub from './Components/GitHub/GitHub'
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <Home />
       <About />
       <Skills />
-      <YouTube />
+      <GitHub />
       <Contact />
       </div>
    

@@ -25,6 +25,12 @@ font-size: 18px;
     flex-wrap: wrap;
     margin-left: 10%;
     margin-right: 10%;
+    justify-content: space-around;
+}
+
+.skills .container img {
+    width: 15%;
+    padding-right: 40%;
 }
 
 .skills .container .list {

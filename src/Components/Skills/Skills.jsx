@@ -3,21 +3,23 @@ import PageHeader from '../PageHeader/PageHeader'
 import classes from './Skills.module.css'
 import bulb from '../../Images/bulb.svg'
 
+const listTitleStyle = { fontWeight: 900, color: '#9b1fe8', marginBottom: '4px' }
+
 const backendskills = 
 <ul>
-    <li>BACKEND</li>
+    <li style={listTitleStyle}>BACKEND</li>
     <li>Scala - Java - SQL</li>
 </ul>
 
 const frontendskills = 
 <ul>
-    <li>FRONTEND</li>
+    <li style={listTitleStyle}>FRONTEND</li>
     <li>JavaScript - React - Angular</li>
 </ul>
 
 const otherSkills = 
 <ul>
-    <li>OTHER</li>
+    <li style={listTitleStyle}>OTHER</li>
     <li>English - Communication - Fast learning</li>
 </ul>
 
@@ -25,7 +27,7 @@ const totalSkills = [backendskills, frontendskills, otherSkills]
 
 const Skills = () => {
     return (
-        <div className={classes.skills}>
+        <div className={classes.skills} id='skills'>
             <PageHeader title={'My skills'} />
             <p>My skills are awesome. They all are very useful. 
             I could do anything but my lesson is pretty sensitive.
