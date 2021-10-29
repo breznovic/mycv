@@ -1,10 +1,45 @@
 import React from 'react'
-import './Skills.module.css'
+import PageHeader from '../PageHeader/PageHeader'
+import classes from './Skills.module.css'
+import bulb from '../../Images/bulb.svg'
+
+const backendskills = 
+<ul>
+    <li>BACKEND</li>
+    <li>Scala - Java - SQL</li>
+</ul>
+
+const frontendskills = 
+<ul>
+    <li>FRONTEND</li>
+    <li>JavaScript - React - Angular</li>
+</ul>
+
+const otherSkills = 
+<ul>
+    <li>OTHER</li>
+    <li>English - Communication - Fast learning</li>
+</ul>
+
+const totalSkills = [backendskills, frontendskills, otherSkills]
 
 const Skills = () => {
     return (
-        <div>
-            <h1>My skills</h1>
+        <div className={classes.skills}>
+            <PageHeader title={'My skills'} />
+            <p>My skills are awesome. They all are very useful. 
+            I could do anything but my lesson is pretty sensitive.
+            Maybe this video is an idea of what I can do for him</p>
+            <div className={classes.container}>
+                <img src={bulb} />
+            {totalSkills.map(skills => {
+                return (
+                    <div className={classes.list}>
+                        {skills}
+                    </div>
+                )
+            } )}
+            </div>
         </div>
     )
 }

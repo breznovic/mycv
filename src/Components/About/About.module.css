@@ -1,5 +1,6 @@
 .aboutMe {
     background-color: black;
+    padding-bottom: 5%;
 }
 
 .aboutMe .container .photo .me {
@@ -7,6 +8,22 @@ height: 500px;
 border-radius: 10%;
 }
 
-.aboutMe .container {
+.aboutMe .container .photo {
+    width: 50%;
     display: flex;
+    justify-content: center;
+}
+
+.aboutMe .container {
+    width: 47%;
+    margin-left: 3%;
+}
+
+.aboutMe .container .text {
+    display: flex;
+}
+
+.aboutMe .container .text h2 {
+    font-weight: 900;
+    font-size: 46px;
 }
