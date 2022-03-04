@@ -9,12 +9,12 @@ function Contact() {
             <div className={`${styleContainer.container} ${classes.contactContainer}`}>
                 <div className={classes.contactItems}>
                     <h2 className={classes.title}>Contact me</h2>
-                    <div className={classes.contactItem}>
+                    <form className={classes.contactItem}>
                         <div className={classes.item}><input/></div>
                         <div className={classes.item}><input/></div>
                         <div className={classes.item}><textarea/></div>
-                        <button className={classes.button}>Send message</button>
-                    </div>
+                        <button type='submit' className={classes.button}>Send message</button>
+                    </form>
                 </div>
             </div>
         </div>

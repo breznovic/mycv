@@ -15,7 +15,7 @@ function Work(props: PropsType) {
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 height: 550,
-                width: 'clamp(320px, 100%, 500px)',
+                width: 'clamp(100%)',
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
