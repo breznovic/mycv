@@ -1,6 +1,5 @@
 .skillsBlock {
-   min-height: 100vh;
-   background-color: burlywood;
+   background-color: #a1a1a1;
    display: flex;
    align-items: center;
 }
@@ -16,11 +15,22 @@
    border: 1px solid;
    width: 100%;
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
    flex-wrap: wrap;
 }
 
 .title {
    background-color: gray;
+}
+
+.title h2 {
+   background-color: gray;
+   font-family: 'Poppins',sans-serif;
+}
+
+@media screen and (max-width: 1129px) {
+   .skills {
+      justify-content: center;
+   }
 }
 
