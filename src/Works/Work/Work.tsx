@@ -9,13 +9,14 @@ type PropsType = {
 
 function Work(props: PropsType) {
     return (
-        <div className={classes.skill}>
+        <div className={classes.skill} >
             <div style={{
                 backgroundImage: `url(${props.image})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
-                height: 550,
-                width: 'clamp(100%)',
+                height: '100%',
+                // width: 'clamp(100%)',
+                width: '100%',
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
