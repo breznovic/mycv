@@ -7,7 +7,7 @@ function Header() {
         <div className={classes.header}>
             <Nav/>
         </div>
-    );
+    )
 }
 
 export default Header

@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './skill.module.css';
+import {DiHtml5} from "react-icons/di";
 
 type PropsType = {
     title: string
@@ -9,7 +10,7 @@ type PropsType = {
 function Skill(props: PropsType) {
     return (
         <div className={classes.skill}>
-            <div className={classes.icon}></div>
+            {/*<div className={classes.icon}></div>*/}
             <h3>{props.title}</h3>
             <span className={classes.description}>
                 {props.description}

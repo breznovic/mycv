@@ -7,12 +7,15 @@
     align-items: center;
     text-align: center;
     box-sizing: border-box;
+    flex-wrap: wrap;
+    flex: 30%;
+    max-width: 30%;
 }
 
 .icon {
     height: 60px;
     width: 60px;
-    background-color: brown;
+    /*background-color: brown;*/
 }
 
 .description {
