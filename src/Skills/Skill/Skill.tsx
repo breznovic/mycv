@@ -1,7 +1,6 @@
 import React from 'react';
 import classes from './skill.module.css';
-import {DiHtml5} from "react-icons/di";
-import {SkillType} from "../../App";
+import {SkillType} from "../Skills";
 
 type PropsType = {
     skill: SkillType

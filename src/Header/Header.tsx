@@ -5,7 +5,7 @@ import Nav from "../Nav/Nav";
 function Header() {
     return (
         <div className={classes.header}>
-            <Nav/>
+            <Nav />
         </div>
     )
 }
