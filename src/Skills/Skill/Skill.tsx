@@ -10,7 +10,6 @@ function Skill(props: PropsType) {
     return (
         
         <div className={classes.skill}>
-            {/*<div className={classes.icon}></div>*/}
             {props.skill.icon}
             <h3>{props.skill.title}</h3>
             <span className={classes.description}>

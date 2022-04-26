@@ -8,16 +8,11 @@
 
 .items {
     border: 1px solid;
-    width: 50%;
     display: flex;
     justify-content: space-evenly;
     align-self: center;
-}
-
-.icons {
     height: 60px;
-    width: 60px;
-    background-color: brown;
+    width: 50%;
 }
 
 .title {
