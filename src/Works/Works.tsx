@@ -8,7 +8,7 @@ function Works() {
         <div className={classes.skillsBlock}>
             <div className={`${styleContainer.container} ${classes.skillsContainer}`}>
                 <div className={classes.title}>
-                    <h2>My works</h2>
+                    <h2 id="works">My works</h2>
                 </div>
                 <div className={classes.skills}>
                     <Work title='Cats' description='I draw cats' image='https://cdn.mos.cms.futurecdn.net/AESHMNgFLdtaTbA7vsGjmn.jpg'/>

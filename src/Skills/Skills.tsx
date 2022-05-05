@@ -50,7 +50,7 @@ function Skills() {
     return (
         <div className={classes.skillsBlock}>
             <div className={`${styleContainer.container} ${classes.skillsContainer}`}>
-                <h2 className={classes.title}>My skills</h2>
+                <h2 className={classes.title} id="skills">My skills</h2>
                 <div className={classes.skills}>
                     {skillsArray.map(s => <Skill skill={s} />)}
                 </div>

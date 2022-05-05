@@ -10,18 +10,18 @@ type IconType = {
 
 function Contact() {
 
-    let icon: Array<IconType> = [
+    let icons: Array<IconType> = [
         {
             icon: 'Telegram',
-            iconImage: <BsTelegram/>
+            iconImage: <BsTelegram className={classes.ContactIcon1}/>
         },
         {
             icon: 'Email',
-            iconImage: <BsEnvelope/>
+            iconImage: <BsEnvelope className={classes.ContactIcon2}/>
         },
         {
             icon: 'GitHub',
-            iconImage: <GrGithub/>
+            iconImage: <GrGithub className={classes.ContactIcon3}/>
         },
     ]
 
@@ -37,9 +37,9 @@ function Contact() {
 
     return (
         <div className={classes.footer}>
-            <h2 className={classes.title}>Contact Me</h2>
+            <h2 className={classes.title} id="contact">Contact Me</h2>
             <div className={classes.items}>
-                {icon.map(i => <Icon
+                {icons.map(i => <Icon
                     iconImage={i.iconImage}
                     icon={i.icon}/>
                 )}

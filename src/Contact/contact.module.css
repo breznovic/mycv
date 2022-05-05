@@ -18,3 +18,16 @@
 .title {
     background-color: gray;
 }
+
+.ContactIcon1 {
+    width: 60%;
+    height: 60%;
+}
+.ContactIcon2 {
+    width: 100%;
+    height: 100%;
+}
+.ContactIcon3 {
+    width: 75%;
+    height: 75%;
+}
