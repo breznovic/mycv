@@ -1,6 +1,6 @@
 .skillsBlock {
-   min-height: 100vh;
-   background-color: lightgray;
+   min-height: calc(100vh - 80px);
+   background-color: red;
    display: flex;
    align-items: center;
 }
@@ -20,8 +20,6 @@
    flex-wrap: wrap;
    min-height: 80vh;
    align-items: center;
-
-
 }
 
 .title {

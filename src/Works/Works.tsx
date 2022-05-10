@@ -5,16 +5,20 @@ import Work from "./Work/Work";
 
 function Works() {
     return (
+        <div>
+        <div id="works" className='top-stripe'></div>
         <div className={classes.skillsBlock}>
+
             <div className={`${styleContainer.container} ${classes.skillsContainer}`}>
                 <div className={classes.title}>
-                    <h2 id="works">My works</h2>
+                    <h2>My works</h2>
                 </div>
                 <div className={classes.skills}>
                     <Work title='Cats' description='I draw cats' image='https://cdn.mos.cms.futurecdn.net/AESHMNgFLdtaTbA7vsGjmn.jpg'/>
                     <Work title='Mountains' description='I construct mountains' image='https://cdn.britannica.com/73/189273-131-DA3E2F9A/Denali-peak-center-Alaska-Range-North-America.jpg'/>
                 </div>
             </div>
+        </div>
         </div>
     );
 }
