@@ -1,21 +1,18 @@
 import React from 'react'
 import classes from './main.module.css'
-import styleContainer from '../common/styles/container.module.css'
 
 function Main() {
     return (
-        <div className={classes.mainBlock}>
-            <div id="main"></div>
-            <div className={`${classes.wrapper} ${styleContainer.container}`}>
-                <div className={classes.text}>
-                    <span>Hi there!</span>
-                    <h1>I am Evgeniy Berezkin</h1>
-                    <p>Front-end developer</p>
-                </div>
+        <div className='screen-block'>
+            <div id="main" className='top-stripe'></div>
+            <div className={`page-block ${classes.mainWrapper}`}>
+                <div className={classes.mainContent}>
+                    <h1>Noble Front-end Developer</h1>
+                    <p>Evgeniy Berezkin</p>
                     <div className={classes.photo}></div>
                 </div>
             </div>
-            )
-            }
+        </div>)
+}
 
-            export default Main
+export default Main
