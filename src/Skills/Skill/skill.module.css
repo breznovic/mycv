@@ -1,18 +1,38 @@
 .skill {
     width: 250px;
     height: 30vh;
-    background-color: antiquewhite;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
     text-align: center;
     box-sizing: border-box;
     flex-wrap: wrap;
     flex: 30%;
     max-width: 30%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: antiquewhite;
+    box-shadow: 10px 7px 10px gray;
+
 }
 
-.SkillIcon {
+.skill:hover {
+    opacity: 0.8;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.iconWrapper {
     width: 50%;
     height: 50%;
 }
+
+.title {
+
+}
+
+.description {
+
+}
+

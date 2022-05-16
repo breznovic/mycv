@@ -8,13 +8,10 @@ type PropsType = {
 
 function Skill(props: PropsType) {
     return (
-        
         <div className={classes.skill}>
-            {props.skill.icon}
+            <div className={classes.iconWrapper}>{props.skill.icon}</div>
             <h3>{props.skill.title}</h3>
-            <span className={classes.description}>
-                {props.skill.description}
-            </span>
+            <span className={classes.description}>{props.skill.description}</span>
         </div>
     )
 }

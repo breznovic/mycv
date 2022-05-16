@@ -3,7 +3,7 @@ import classes from './main.module.css'
 
 function Main() {
     return (
-        <div className='screen-block'>
+        <div className='screen-block bg-image'>
             <div id="main" className='top-stripe'></div>
             <div className={`page-block ${classes.mainWrapper}`}>
                 <div className={classes.mainContent}>
