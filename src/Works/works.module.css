@@ -13,20 +13,10 @@
 }
 
 .skills {
-   border: 1px solid;
    width: 100%;
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
-}
-
-.title {
-   background-color: gray;
-}
-
-.title h2 {
-   background-color: gray;
-   font-family: 'Poppins',sans-serif;
 }
 
 @media screen and (max-width: 1129px) {

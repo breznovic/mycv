@@ -66,11 +66,11 @@ export const Contact = () => {
     })
 
     return (
-        <div id="contact" className='top-stripe'>
-            <h2>{ContactForm.form.title}</h2>
+        <div id="contact">
+            <h2 className={classes.title}>{ContactForm.form.title}</h2>
             <div className={classes.contactBlock}>
-                <div className={classes.contactContainer}>
-                    <form onSubmit={formik.handleSubmit}>
+                <div>
+                    <form onSubmit={formik.handleSubmit} className={classes.contactContainer}>
                         <div>
                             <label htmlFor="contact_name">{ContactForm.form.name}
                                 {formik.touched.name && formik.errors.name ? <span> - {formik.errors.name}</span> : null}</label>
