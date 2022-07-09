@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './skills.module.css';
 import styleContainer from '../common/styles/container.module.css'
-import Skill from "./Skill/Skill";
+import {Skill} from "./Skill/Skill";
 import {DiCss3, DiHtml5, DiJsBadge, DiReact} from "react-icons/di";
 import {SiRedux, SiTypescript} from "react-icons/all";
 
@@ -58,7 +58,7 @@ function Skills() {
                 </div>
             </div>
         </div>
-    );
+    )
 }
 
 export default Skills

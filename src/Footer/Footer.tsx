@@ -1,7 +1,7 @@
-import React from 'react';
-import classes from './footer.module.css';
-import {BsEnvelope, BsTelegram} from "react-icons/bs";
-import {GrGithub} from "react-icons/all";
+import React from 'react'
+import classes from './footer.module.css'
+import {BsEnvelope, BsTelegram} from "react-icons/bs"
+import {GrGithub} from "react-icons/all"
 
 type IconType = {
     iconImage: JSX.Element
@@ -37,7 +37,7 @@ function Footer() {
 
     return (
         <div className={classes.footer}>
-            <h2 className={classes.title}>Contact Me</h2>
+            <h2 className={classes.title}>My Contacts</h2>
             <div className={classes.items}>
                 {icons.map(i => <Icon
                     iconImage={i.iconImage}
@@ -48,7 +48,7 @@ function Footer() {
                 <span><p>2022 &copy; All rights reserved</p></span>
             </div>
         </div>
-    );
+    )
 }
 
 export default Footer

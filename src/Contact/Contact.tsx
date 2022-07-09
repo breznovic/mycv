@@ -1,6 +1,6 @@
-import { useFormik } from 'formik';
-import { useState } from 'react';
-import './contact.module.css';
+import { useFormik } from 'formik'
+import { useState } from 'react'
+import classes from './contact.module.css'
 
 export const Contact = () => {
     const [message, setMessage] = useState<string | null>(null)
@@ -13,7 +13,7 @@ export const Contact = () => {
 
     const ContactForm = {
         form: {
-            title: 'Footer With Me',
+            title: 'Contact Me',
             name: 'name',
             email: 'email',
             message: 'message',
@@ -48,8 +48,7 @@ export const Contact = () => {
         } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)) {
             errors.email = ContactForm.form.validate.invalidEmail
         }
-
-        return errors;
+        return errors
     }
 
     const formik = useFormik({
@@ -67,29 +66,29 @@ export const Contact = () => {
     })
 
     return (
-        <div className="contacts">
-            <h5 className="contacts__title title">{ContactForm.form.title}</h5>
-            <div className="contacts__form">
-                <div className="form">
-                    <form className="form__wrapper" id="contact" onSubmit={formik.handleSubmit}>
-                        <div className="form__group">
-                            <label className="form__label" htmlFor="contact_name">{ContactForm.form.name}
+        <div id="contact" className='top-stripe'>
+            <h2>{ContactForm.form.title}</h2>
+            <div className={classes.contactBlock}>
+                <div className={classes.contactContainer}>
+                    <form onSubmit={formik.handleSubmit}>
+                        <div>
+                            <label htmlFor="contact_name">{ContactForm.form.name}
                                 {formik.touched.name && formik.errors.name ? <span> - {formik.errors.name}</span> : null}</label>
-                            <input className="form__input" id="contact_name" {...formik.getFieldProps('name')} type="text" />
+                            <input className={classes.input} id="contact_name" {...formik.getFieldProps('name')} type="text" />
                         </div>
-                        <div className="form__group">
-                            <label className="form__label" htmlFor="contact_email">{ContactForm.form.email}
+                        <div>
+                            <label htmlFor="contact_email">{ContactForm.form.email}
                                 {formik.touched.email && formik.errors.email ? <span> - {formik.errors.email}</span> : null}</label>
-                            <input className="form__input" id="contact_email" {...formik.getFieldProps('email')} type="email" />
+                            <input className={classes.input} id="contact_email" {...formik.getFieldProps('email')} type="email" />
                         </div>
-                        <div className="form__group">
-                            <label className="form__label" htmlFor="contact_message">{ContactForm.form.message}
+                        <div>
+                            <label htmlFor="contact_message">{ContactForm.form.message}
                                 {formik.touched.message && formik.errors.message ? <span> - {formik.errors.message}</span> : null}</label>
-                            <textarea className="form__textarea" id="contact_message" {...formik.getFieldProps('message')} />
+                            <textarea className={classes.textarea} id="contact_message" {...formik.getFieldProps('message')} />
                         </div>
-                        {message && <div className="form__success">{message}</div>}
-                        <div className="form__group">
-                            <button type='submit' className="form__button button">{ContactForm.form.button}</button>
+                        {message && <div>{message}</div>}
+                        <div>
+                            <button type='submit'>{ContactForm.form.button}</button>
                         </div>
                     </form>
                 </div>

@@ -7,7 +7,7 @@ function Works() {
     return (
         <div>
         <div id="works" className='top-stripe'></div>
-        <div className={classes.skillsBlock}>
+        <div className={classes.worksBlock}>
 
             <div className={`${styleContainer.container} ${classes.skillsContainer}`}>
                 <div className={classes.title}>
@@ -20,7 +20,7 @@ function Works() {
             </div>
         </div>
         </div>
-    );
+    )
 }
 
 export default Works

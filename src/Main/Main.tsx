@@ -7,7 +7,7 @@ function Main() {
             <div id="main" className='top-stripe'></div>
             <div className={`page-block ${classes.mainWrapper}`}>
                 <div className={classes.mainContent}>
-                    <h1>Noble Front-end Developer</h1>
+                    <h1>Front-end Developer</h1>
                     <p>Evgeniy Berezkin</p>
                     <div className={classes.photo}></div>
                 </div>
