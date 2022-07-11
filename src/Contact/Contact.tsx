@@ -1,6 +1,7 @@
-import { useFormik } from 'formik'
-import { useState } from 'react'
+import {useFormik} from 'formik'
+import {FormEvent, useState} from 'react'
 import classes from './contact.module.css'
+import axios from "axios";
 
 export const Contact = () => {
     const [message, setMessage] = useState<string | null>(null)
@@ -24,7 +25,7 @@ export const Contact = () => {
                 lessMessage: 'Must be 15 characters or less',
                 invalidEmail: 'Invalid email address',
             },
-            success: 'Email sent successfully 😊',
+            success: 'Email was sent successfully',
         }
     }
 
@@ -65,6 +66,14 @@ export const Contact = () => {
         },
     })
 
+    const sendMessage = (e: FormEvent<HTMLButtonElement>) => {
+        e.preventDefault()
+        axios.post('http://localhost:3010/sendMessage')
+            .then(() => {
+                alert('Email was sent successfully')
+            })
+    }
+
     return (
         <div id="contact">
             <h2 className={classes.title}>{ContactForm.form.title}</h2>
@@ -73,22 +82,28 @@ export const Contact = () => {
                     <form onSubmit={formik.handleSubmit} className={classes.contactContainer}>
                         <div>
                             <label htmlFor="contact_name">{ContactForm.form.name}
-                                {formik.touched.name && formik.errors.name ? <span> - {formik.errors.name}</span> : null}</label>
-                            <input className={classes.input} id="contact_name" {...formik.getFieldProps('name')} type="text" />
+                                {formik.touched.name && formik.errors.name ?
+                                    <span> - {formik.errors.name}</span> : null}</label>
+                            <input className={classes.input} id="contact_name" {...formik.getFieldProps('name')}
+                                   type="text"/>
                         </div>
                         <div>
                             <label htmlFor="contact_email">{ContactForm.form.email}
-                                {formik.touched.email && formik.errors.email ? <span> - {formik.errors.email}</span> : null}</label>
-                            <input className={classes.input} id="contact_email" {...formik.getFieldProps('email')} type="email" />
+                                {formik.touched.email && formik.errors.email ?
+                                    <span> - {formik.errors.email}</span> : null}</label>
+                            <input className={classes.input} id="contact_email" {...formik.getFieldProps('email')}
+                                   type="email"/>
                         </div>
                         <div>
                             <label htmlFor="contact_message">{ContactForm.form.message}
-                                {formik.touched.message && formik.errors.message ? <span> - {formik.errors.message}</span> : null}</label>
-                            <textarea className={classes.textarea} id="contact_message" {...formik.getFieldProps('message')} />
+                                {formik.touched.message && formik.errors.message ?
+                                    <span> - {formik.errors.message}</span> : null}</label>
+                            <textarea className={classes.textarea}
+                                      id="contact_message" {...formik.getFieldProps('message')} />
                         </div>
                         {message && <div>{message}</div>}
                         <div>
-                            <button type='submit'>{ContactForm.form.button}</button>
+                            <button type='submit' onSubmit={sendMessage}>{ContactForm.form.button}</button>
                         </div>
                     </form>
                 </div>
