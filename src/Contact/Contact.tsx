@@ -1,7 +1,7 @@
 import {useFormik} from 'formik'
 import {FormEvent, useState} from 'react'
 import classes from './contact.module.css'
-import axios from "axios";
+import axios from 'axios'
 
 export const Contact = () => {
     const [message, setMessage] = useState<string | null>(null)

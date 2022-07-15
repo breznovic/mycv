@@ -1,5 +1,5 @@
-import React from 'react';
-import classes from './nav.module.css';
+import React from 'react'
+import classes from './nav.module.css'
 import '../App.css'
 
 function Nav() {

@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from './footer.module.css'
-import {BsEnvelope, BsTelegram} from "react-icons/bs"
-import {GrGithub} from "react-icons/all"
+import {BsEnvelope, BsTelegram} from 'react-icons/bs'
+import {GrGithub} from 'react-icons/all'
 
 type IconType = {
     iconImage: JSX.Element

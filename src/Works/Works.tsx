@@ -1,7 +1,7 @@
-import React from 'react';
-import classes from './works.module.css';
+import React from 'react'
+import classes from './works.module.css'
 import styleContainer from '../common/styles/container.module.css'
-import Work from "./Work/Work";
+import Work from './Work/Work'
 
 function Works() {
     return (
