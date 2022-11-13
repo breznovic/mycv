@@ -1,3 +1,7 @@
+.main {
+    align-content: center;
+}
+
 .contactBlock {
     min-height: calc(70vh - 80px);
     /*background-color: red;*/

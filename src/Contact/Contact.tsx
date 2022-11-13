@@ -75,7 +75,7 @@ export const Contact = () => {
     }
 
     return (
-        <div id="contact">
+        <div id="contact" className={classes.main}>
             <h2 className={classes.title}>{ContactForm.form.title}</h2>
             <div className={classes.contactBlock}>
                 <div>
