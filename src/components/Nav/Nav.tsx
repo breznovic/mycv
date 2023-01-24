@@ -22,13 +22,13 @@ const Navbar = () => {
                             <a href="#about">About Me</a>
                         </li>
                         <li className={classes.listItem}>
-                            <a href="#services">My skills</a>
+                            <a href="#skills">My skills</a>
                         </li>
                         <li className={classes.listItem}>
-                            <a href="#contacts">My works</a>
+                            <a href="#works">My works</a>
                         </li>
                         <li className={classes.listItem}>
-                            <a href="#testimonials">Contacts</a>
+                            <a href="#contact">Contacts</a>
                         </li>
                         <button className={classes.getQuote}>Get a Quote</button>
                     </ul>
