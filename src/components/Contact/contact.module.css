@@ -32,14 +32,12 @@
 
 .sides {
   margin-top: 5rem;
-  display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .cards {
   display: flex;
-  justify-content: start;
+  justify-content: center;
   gap: 50px;
 }
 
@@ -59,10 +57,6 @@
   margin-bottom: 60px;
 }
 
-.card i {
-  font-size: 24px;
-}
-
 .card > span:first-child {
   display: flex;
   justify-content: space-between;
@@ -79,59 +73,4 @@
   background-color: #fff;
   color: #1721ad;
   border-color: #1721ad;
-}
-
-.right > form {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  background-color: #171e86;
-  padding: 5rem 2.5rem;
-  border-radius: 16px;
-}
-
-.right > form > input,
-textarea {
-  border: none;
-  outline: none;
-  background-color: transparent;
-  border-bottom: 1px solid #fff;
-  height: 45px;
-  width: 250px;
-  color: #fff;
-  font-size: 18px;
-  transition: 150ms all;
-}
-
-form > textarea {
-  resize: none;
-}
-
-form > input:focus {
-  border-color: #cfc7c7;
-  padding-left: 0.75rem;
-}
-
-form > textarea:focus {
-  border-color: #cfc7c7;
-  padding-left: 0.75rem;
-}
-
-.right > form > button {
-  border: 1px solid transparent;
-  color: #fff;
-  background-color: #1721ad;
-  padding: 0.5rem 0;
-  width: 80%;
-  margin: 0 auto;
-  border-radius: 10px;
-  font-size: 20px;
-  cursor: pointer;
-  transition: 150ms all;
-}
-
-.right > form > button:hover {
-  border-color: #1721ad;
-  color: #1721ad;
-  background-color: rgb(229, 221, 221);
 }
