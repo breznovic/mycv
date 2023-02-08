@@ -30,7 +30,6 @@ const Navbar = () => {
                         <li className={classes.listItem}>
                             <a href="#contact">Contacts</a>
                         </li>
-                        <button className={classes.getQuote}>Get a Quote</button>
                     </ul>
                 </div>
             </div>

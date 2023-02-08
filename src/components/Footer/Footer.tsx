@@ -1,5 +1,3 @@
-import React from "react";
-import { AiOutlineFacebook, AiOutlineInstagram, AiOutlineTwitter } from "react-icons/ai";
 import classes from "./footer.module.css";
 
 const Footer = () => {
@@ -25,9 +23,6 @@ const Footer = () => {
         <div className={classes.column}>
           <h2>Contact</h2>
           <div className={classes.icons}>
-            <AiOutlineFacebook />
-            <AiOutlineInstagram />
-            <AiOutlineTwitter />
           </div>
         </div>
       </div>

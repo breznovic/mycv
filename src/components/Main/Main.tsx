@@ -1,5 +1,4 @@
 import { useRef } from 'react'
-import { AiOutlineArrowDown } from 'react-icons/ai'
 import senor from '../../assets/senor.webp'
 import classes from './main.module.css'
 
@@ -19,10 +18,6 @@ const Main = () => {
             assumenda modi laboriosam reiciendis deserunt cupiditate
             facilis inventore minima tempora quidem ullam laborum!
           </p>
-          <div className={classes.buttons}>
-            <button>Contact me</button>
-            <button className={classes.seeMoreBtn}>See more <AiOutlineArrowDown /></button>
-          </div>
         </div>
         <div className={classes.right}>
           <img src={senor} />
