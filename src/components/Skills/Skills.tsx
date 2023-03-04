@@ -1,4 +1,7 @@
 import classes from "./skills.module.css";
+import { BsFiletypeHtml } from "react-icons/bs";
+import { FaReact, FaNodeJs } from "react-icons/fa";
+import { SiTypescript, SiRedux, SiJest } from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -11,15 +14,8 @@ const Skills = () => {
         <div className={classes.cards}>
           <div className={classes.card}>
             <div className={classes.top}>
-              <span>
-                HTML/CSS{" "}
-                <div className={classes.circles}>
-                  <div className={classes.circle} />{" "}
-                  <div className={classes.circle} />{" "}
-                  <div className={classes.circle} />
-                </div>
-              </span>
-              <i className="ri-code-s-slash-fill"></i>
+              <BsFiletypeHtml className={classes.icon} />
+              <span>HTML/CSS</span>
             </div>
             <div className={classes.bottom}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -30,11 +26,8 @@ const Skills = () => {
           </div>
           <div className={classes.card}>
             <div className={classes.top}>
-              <span>
-                React
-                <div className={classes.circles}></div>
-              </span>
-              <i className="ri-pencil-line"></i>
+              <FaReact className={classes.icon} />
+              <span>React</span>
             </div>
             <div className={classes.bottom}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -45,15 +38,8 @@ const Skills = () => {
           </div>
           <div className={classes.card}>
             <div className={classes.top}>
-              <span>
-                TypeScript{" "}
-                <div className={classes.circles}>
-                  <div className={classes.circle} />{" "}
-                  <div className={classes.circle} />{" "}
-                  <div className={classes.circle} />
-                </div>
-              </span>
-              <i className="ri-braces-line"></i>
+              <SiTypescript className={classes.icon} />
+              <span>TypeScript</span>
             </div>
             <div className={classes.bottom}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -64,15 +50,8 @@ const Skills = () => {
           </div>
           <div className={classes.card}>
             <div className={classes.top}>
-              <span>
-                Redux Toolkit{" "}
-                <div className={classes.circles}>
-                  <div className={classes.circle} />{" "}
-                  <div className={classes.circle} />{" "}
-                  <div className={classes.circle} />
-                </div>
-              </span>
-              <i className="ri-image-line"></i>
+              <SiRedux className={classes.icon} />
+              <span>Redux Toolkit</span>
             </div>
             <div className={classes.bottom}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -83,15 +62,8 @@ const Skills = () => {
           </div>
           <div className={classes.card}>
             <div className={classes.top}>
-              <span>
-                Unit-testing{" "}
-                <div className={classes.circles}>
-                  <div className={classes.circle} />{" "}
-                  <div className={classes.circle} />{" "}
-                  <div className={classes.circle} />
-                </div>
-              </span>
-              <i className="ri-search-eye-line"></i>
+              <SiJest className={classes.icon} />
+              <span>Unit-testing</span>
             </div>
             <div className={classes.bottom}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -102,15 +74,8 @@ const Skills = () => {
           </div>
           <div className={classes.card}>
             <div className={classes.top}>
-              <span>
-                Node.js{" "}
-                <div className={classes.circles}>
-                  <div className={classes.circle} />{" "}
-                  <div className={classes.circle} />{" "}
-                  <div className={classes.circle} />
-                </div>
-              </span>
-              <i className="ri-computer-line"></i>
+              <FaNodeJs className={classes.icon} />
+              <span>Node.js</span>
             </div>
             <div className={classes.bottom}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.

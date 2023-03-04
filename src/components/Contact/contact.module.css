@@ -31,7 +31,7 @@
 }
 
 .sides {
-  margin-top: 5rem;
+  margin-top: 9rem;
   justify-content: space-between;
 }
 
@@ -57,13 +57,7 @@
   margin-bottom: 60px;
 }
 
-.card > span:first-child {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.card > span:last-child {
+.card > span {
   text-align: center;
   color: #cec2c2;
   font-size: 19px;
@@ -73,4 +67,8 @@
   background-color: #fff;
   color: #1721ad;
   border-color: #1721ad;
+}
+
+.card:hover > span {
+  color: #1721ad;
 }

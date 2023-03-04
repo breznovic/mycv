@@ -19,12 +19,22 @@ const Contact = () => {
               <span>Email</span>
               <span>gmail@gmail.com</span>
             </div>
-          </div>
-          <div className={classes.cards}>
-          <div className={classes.card}>
-            <span>Telegram</span>
-            <span>Berezkin</span>
-          </div>
+            <div className={classes.card}>
+              <span>Telegram</span>
+              <span>Berezkin</span>
+            </div>
+            <div className={classes.card}>
+              <span>GitHub</span>
+              <span>+1 1 1 1 1</span>
+            </div>
+            <div className={classes.card}>
+              <span>Email</span>
+              <span>gmail@gmail.com</span>
+            </div>
+            <div className={classes.card}>
+              <span>Telegram</span>
+              <span>Berezkin</span>
+            </div>
           </div>
         </div>
       </div>
