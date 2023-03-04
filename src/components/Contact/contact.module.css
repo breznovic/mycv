@@ -37,24 +37,27 @@
 
 .cards {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
   gap: 50px;
+}
+
+.cards > div {
+  flex: 25%;
 }
 
 .card {
   border: 1px solid #fff;
-  padding: 1rem;
-  height: 150px;
-  width: 240px;
+  padding: 1.5rem;
+  height: 7rem;
   border-radius: 16px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 20px;
+  gap: 10px;
   color: #fff;
   font-size: 22px;
   cursor: pointer;
-  margin-bottom: 60px;
+  margin-bottom: 2rem;
 }
 
 .card > span {

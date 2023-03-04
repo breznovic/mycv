@@ -10,7 +10,7 @@ const Main = () => {
     <section id="about" className={classes.container}>
       <div className={classes.wrapper}>
         <div className={classes.left}>
-          <h2 className={classes.title}>Hi, I am Front-end Developer</h2> 
+          <h2 className={classes.title}>Hi, I am Evgeniy Berezkin</h2> 
           <h4 className={classes.subtitle}>Front-end Developer</h4>
           <p className={classes.desc}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.

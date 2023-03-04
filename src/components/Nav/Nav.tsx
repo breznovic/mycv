@@ -26,7 +26,7 @@ const Navbar = () => {
               <a href="#skills">My skills</a>
             </li>
             <li className={classes.listItem}>
-              <a href="#works">My works</a>
+              <a href="#works">My Apps</a>
             </li>
             <li className={classes.listItem}>
               <a href="#contact">Contacts</a>
