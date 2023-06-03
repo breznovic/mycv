@@ -6,7 +6,7 @@
 
 .wrapper {
   margin: 0 auto;
-  margin-top: 10rem;
+  margin-top: 0rem;
   height: 100%;
   width: 80%;
   padding-top: 6rem;
@@ -58,6 +58,8 @@
   font-size: 22px;
   cursor: pointer;
   margin-bottom: 2rem;
+  margin-left: 2rem;
+  max-width: 25rem;
 }
 
 .card > span {
@@ -75,3 +77,4 @@
 .card:hover > span {
   color: #1721ad;
 }
+

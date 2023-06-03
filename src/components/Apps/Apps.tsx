@@ -1,6 +1,6 @@
 import classes from "./apps.module.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { FreeMode } from "swiper";
+import { Autoplay, FreeMode } from "swiper";
 import "swiper/css/free-mode";
 import "swiper/css";
 
@@ -15,10 +15,14 @@ const Works = () => {
             <Swiper
               freeMode={true}
               grabCursor={true}
-              modules={[FreeMode]}
+              modules={[FreeMode, Autoplay]}
               slidesPerView={1}
               spaceBetween={100}
               allowSlideNext={true}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
             >
               <SwiperSlide>
                 <h2 className={classes.appTitle}>John Doe</h2>

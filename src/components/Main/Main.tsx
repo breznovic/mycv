@@ -1,11 +1,8 @@
-import { useRef } from 'react'
 import senor from '../../assets/senor.webp'
 import classes from './main.module.css'
 
-
 const Main = () => {
-  const titleRef = useRef()
-
+ 
   return (
     <section id="about" className={classes.container}>
       <div className={classes.wrapper}>

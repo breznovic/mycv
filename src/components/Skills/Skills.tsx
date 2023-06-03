@@ -72,18 +72,6 @@ const Skills = () => {
               accusamus earum tempore?
             </div>
           </div>
-          <div className={classes.card}>
-            <div className={classes.top}>
-              <FaNodeJs className={classes.icon} />
-              <span>Node.js</span>
-            </div>
-            <div className={classes.bottom}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur nostrum officia quaerat hic rem aut tenetur pariatur
-              recusandae a id facere ducimus eius totam libero ut, veniam
-              accusamus earum tempore?
-            </div>
-          </div>
         </div>
       </div>
     </section>
