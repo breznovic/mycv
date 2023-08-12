@@ -1,7 +1,8 @@
 import classes from "./skills.module.css";
 import { BsFiletypeHtml } from "react-icons/bs";
-import { FaReact, FaNodeJs } from "react-icons/fa";
-import { SiTypescript, SiRedux, SiJest } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
+import { SiTypescript, SiRedux } from "react-icons/si";
+import { DiJsBadge } from "react-icons/di";
 
 const Skills = () => {
   return (
@@ -16,6 +17,18 @@ const Skills = () => {
             <div className={classes.top}>
               <BsFiletypeHtml className={classes.icon} />
               <span>HTML/CSS</span>
+            </div>
+            <div className={classes.bottom}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur nostrum officia quaerat hic rem aut tenetur pariatur
+              recusandae a id facere ducimus eius totam libero ut, veniam
+              accusamus earum tempore?
+            </div>
+          </div>
+          <div className={classes.card}>
+            <div className={classes.top}>
+              <DiJsBadge className={classes.icon} />
+              <span>JavaScript</span>
             </div>
             <div className={classes.bottom}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -52,18 +65,6 @@ const Skills = () => {
             <div className={classes.top}>
               <SiRedux className={classes.icon} />
               <span>Redux Toolkit</span>
-            </div>
-            <div className={classes.bottom}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur nostrum officia quaerat hic rem aut tenetur pariatur
-              recusandae a id facere ducimus eius totam libero ut, veniam
-              accusamus earum tempore?
-            </div>
-          </div>
-          <div className={classes.card}>
-            <div className={classes.top}>
-              <SiJest className={classes.icon} />
-              <span>Unit-testing</span>
             </div>
             <div className={classes.bottom}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
