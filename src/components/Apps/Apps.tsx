@@ -1,6 +1,7 @@
 import classes from "./apps.module.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, FreeMode } from "swiper";
+import thorvald from "../../assets/thorvaldClicker.png";
 import "swiper/css/free-mode";
 import "swiper/css";
 
@@ -20,12 +21,12 @@ const Works = () => {
               spaceBetween={100}
               allowSlideNext={true}
               autoplay={{
-                delay: 2500,
+                delay: 7000,
                 disableOnInteraction: false,
               }}
             >
               <SwiperSlide>
-                <h2 className={classes.appTitle}>John Doe</h2>
+                <h2 className={classes.appTitle}>Thorvald clicker game</h2>
                 <p className={classes.desc}>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
                   distinctio molestiae, iste sapiente earum porro deleniti
@@ -33,10 +34,7 @@ const Works = () => {
                   asperiores. Quasi quam explicabo maiores quisquam!
                 </p>
                 <div className={classes.bottom}>
-                  <img
-                    src="https://www1.lovethatdesign.com/wp-content/uploads/2019/03/Love-that-Design-NOVO-01.jpg"
-                    className={classes.img}
-                  />
+                  <img src={thorvald} className={classes.img} />
                 </div>
               </SwiperSlide>
               <SwiperSlide>

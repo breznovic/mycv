@@ -1,4 +1,4 @@
-import classes from "./nav.module.css";
+import s from "./nav.module.css";
 
 const Navbar = () => {
   const scrollToTop = () => {
@@ -6,28 +6,28 @@ const Navbar = () => {
   };
 
   return (
-    <div className={classes.container}>
-      <div className={classes.wrapper}>
-        <div className={classes.left}>
+    <div className={s.container}>
+      <div className={s.wrapper}>
+        <div className={s.left}>
           <h2 onClick={scrollToTop}>Evgeniy Berezkin</h2>
         </div>
-        <div className={classes.right}>
-          <ul className={classes.list}>
-            <li className={classes.listItem}>
+        <div className={s.right}>
+          <ul className={s.list}>
+            <li className={s.listItem}>
               <a onClick={scrollToTop} href="#">
                 Home
               </a>
             </li>
-            <li className={classes.listItem}>
+            <li className={s.listItem}>
               <a href="#about">About Me</a>
             </li>
-            <li className={classes.listItem}>
+            <li className={s.listItem}>
               <a href="#skills">My skills</a>
             </li>
-            <li className={classes.listItem}>
+            <li className={s.listItem}>
               <a href="#works">My Apps</a>
             </li>
-            <li className={classes.listItem}>
+            <li className={s.listItem}>
               <a href="#contact">Contacts</a>
             </li>
           </ul>

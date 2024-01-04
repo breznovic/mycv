@@ -1,54 +1,101 @@
-.container{
-    background-color: #fff;
-    height: 60px;
-    width: 100%;
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    box-shadow: 1px -1px 34px 3px rgba(0,0,0,0.1);
-    -webkit-box-shadow: 1px -1px 34px 3px rgba(0,0,0,0.1);
-    -moz-box-shadow: 1px -1px 34px 3px rgba(0,0,0,0.1);
+.container {
+  background-color: #fff;
+  height: 60px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  box-shadow: 1px -1px 34px 3px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
+  -webkit-box-shadow: 1px -1px 34px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 1px -1px 34px 3px rgba(0, 0, 0, 0.1);
 }
 
-.wrapper{
-    width: 85%;
-    margin: 0 auto;
-    padding: 0.75rem 4.8rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.wrapper {
+  width: 85%;
+  margin: 0 auto;
+  padding: 0.75rem 4.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.left > h2{
-    font-size: 28px;
-    font-weight: 600;
-    color: #0a1acf;
-    cursor: pointer;
+.left > h2 {
+  font-weight: 600;
+  color: #0a1acf;
+  cursor: pointer;
 }
 
-.right > .list{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 30px;
+.right > .list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
-.listItem{
-    font-size: 18px;
+.listItem {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.listItem > a {
+  text-decoration: none;
+  color: inherit;
+  transition: 150ms all;
+}
+
+.listItem > a:hover {
+  color: #0a1acf;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    color: red;
+  }
+  .left {
+    margin: 4px 10px 0px -100px;
+    font-size: 15px;
+  }
+  .listItem {
+    font-size: 15px;
     font-weight: 500;
+    margin: 0px 0px 0px -20px;
+  }
 }
 
-.listItem > a{
-    text-decoration: none;
-    color: inherit;
-    transition: 150ms all;
+@media only screen and (min-width: 600px) {
+  .container {
+    color: blue;
+  }
+  .left {
+    margin-right: 10px;
+  }
 }
 
-.listItem > a:hover{
-    color: #0a1acf;
-    
+@media only screen and (min-width: 768px) {
+  .container {
+    color: green;
+  }
+  .left {
+    margin-right: 10px;
+  }
 }
 
+@media only screen and (min-width: 992px) {
+  .container {
+    color: orange;
+  }
+  .left {
+    margin-right: 10px;
+  }
+}
 
-
+@media only screen and (min-width: 1200px) {
+  .container {
+    color: violet;
+  }
+  .left {
+    margin-right: 10px;
+  }
+}
