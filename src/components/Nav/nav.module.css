@@ -21,7 +21,7 @@
   align-items: center;
 }
 
-.left > h2 {
+.name > h2 {
   font-weight: 600;
   color: #0a1acf;
   cursor: pointer;
@@ -47,55 +47,4 @@
 
 .listItem > a:hover {
   color: #0a1acf;
-}
-
-@media only screen and (max-width: 600px) {
-  .container {
-    color: red;
-  }
-  .left {
-    margin: 4px 10px 0px -100px;
-    font-size: 15px;
-  }
-  .listItem {
-    font-size: 15px;
-    font-weight: 500;
-    margin: 0px 0px 0px -20px;
-  }
-}
-
-@media only screen and (min-width: 600px) {
-  .container {
-    color: blue;
-  }
-  .left {
-    margin-right: 10px;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .container {
-    color: green;
-  }
-  .left {
-    margin-right: 10px;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  .container {
-    color: orange;
-  }
-  .left {
-    margin-right: 10px;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .container {
-    color: violet;
-  }
-  .left {
-    margin-right: 10px;
-  }
 }

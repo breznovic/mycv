@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className={s.container}>
       <div className={s.wrapper}>
-        <div className={s.left}>
+        <div className={s.name}>
           <h2 onClick={scrollToTop}>Evgeniy Berezkin</h2>
         </div>
         <div className={s.right}>

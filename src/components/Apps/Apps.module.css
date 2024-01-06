@@ -1,7 +1,7 @@
 .container {
   height: 100vh;
   width: 100%;
-  background-color:blanchedalmond;
+  background-color: blanchedalmond;
 }
 
 .wrapper {
@@ -60,7 +60,7 @@
 }
 
 .bottom > .img {
-  width: 52rem;
+  width: 55rem;
   height: 30rem;
   object-fit: cover;
   opacity: 0.7;
