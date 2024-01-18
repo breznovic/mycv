@@ -1,9 +1,9 @@
 import "./App.css";
-import Contact from "./components/Contact/Contact";
+import Apps from "./components/Apps/Apps";
+import Contact from "./components/Contacts/Contacts";
 import Main from "./components/Main/Main";
 import Nav from "./components/Nav/Nav";
 import Skills from "./components/Skills/Skills";
-import Apps from "./components/Apps/Apps";
 
 function App() {
   return (

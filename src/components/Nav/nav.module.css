@@ -1,15 +1,13 @@
 .container {
   background-color: #fff;
-  height: 60px;
+  max-height: 60px;
   width: 100%;
   position: sticky;
   top: 0;
   left: 0;
-  z-index: 9999;
+  z-index: 100;
   box-shadow: 1px -1px 34px 3px rgba(0, 0, 0, 0.1);
   white-space: nowrap;
-  -webkit-box-shadow: 1px -1px 34px 3px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 1px -1px 34px 3px rgba(0, 0, 0, 0.1);
 }
 
 .wrapper {
@@ -21,30 +19,79 @@
   align-items: center;
 }
 
-.name > h2 {
+.name h2 {
   font-weight: 600;
   color: #0a1acf;
   cursor: pointer;
 }
 
-.right > .list {
+.right .list {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 30px;
 }
 
 .listItem {
-  font-size: 18px;
   font-weight: 500;
 }
 
-.listItem > a {
+.listItem a {
   text-decoration: none;
   color: inherit;
   transition: 150ms all;
 }
 
-.listItem > a:hover {
+.listItem a:hover {
   color: #0a1acf;
+}
+
+@media (max-width: 576px) {
+  .listItem {
+    font-size: 16px;
+    margin-top: 2px;
+  }
+  .name {
+    margin: 0px 15px -1px -114px;
+    font-size: 14px;
+  }
+  .right .list {
+    gap: 14px;
+    margin: 0px 0px 0px 0px;
+  }
+}
+
+@media (min-width: 576px) {
+  .listItem {
+    font-size: 17px;
+    margin-top: 2px;
+  }
+  .name {
+    margin: 0px 35px 0px -114px;
+    font-size: 14px;
+  }
+  .right .list {
+    gap: 14px;
+    margin: 0px 0px 0px -22px;
+  }
+}
+
+@media (min-width: 768px) {
+  .right .list {
+    gap: 25px;
+  }
+}
+
+@media (min-width: 992px) {
+  .listItem {
+    font-size: 18px;
+  }
+  .right .list {
+    gap: 25px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .right .list {
+    gap: 30px;
+  }
 }

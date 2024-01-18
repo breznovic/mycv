@@ -28,7 +28,7 @@ const Navbar = () => {
               <a href="#works">My Apps</a>
             </li>
             <li className={s.listItem}>
-              <a href="#contact">Contacts</a>
+              <a href="#contacts">Contacts</a>
             </li>
           </ul>
         </div>

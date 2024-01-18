@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, FreeMode } from "swiper";
 import thorvald from "../../assets/thorvaldClicker.png";
 import todolist from "../../assets/todolist.png";
+import langish from "../../assets/langish.png";
 import "swiper/css/free-mode";
 import "swiper/css";
 
@@ -51,7 +52,7 @@ const Works = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <h2 className={s.appTitle}>John Doe</h2>
+                <h2 className={s.appTitle}>Langish</h2>
                 <p className={s.desc}>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
                   distinctio molestiae, iste sapiente earum porro deleniti
@@ -59,10 +60,7 @@ const Works = () => {
                   asperiores. Quasi quam explicabo maiores quisquam!
                 </p>
                 <div className={s.bottom}>
-                  <img
-                    src="https://www.imgcorporations.com/images/bg-img.jpg"
-                    className={s.img}
-                  />
+                  <img src={langish} className={s.img} />
                 </div>
               </SwiperSlide>
             </Swiper>
