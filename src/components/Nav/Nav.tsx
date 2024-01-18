@@ -1,3 +1,4 @@
+import Burger from "../Burger/Burger";
 import s from "./nav.module.css";
 
 const Navbar = () => {
@@ -33,6 +34,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
+      <Burger/>
     </div>
   );
 };
