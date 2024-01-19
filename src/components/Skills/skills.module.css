@@ -1,13 +1,12 @@
 .container {
-  height: 100vh;
   width: 100%;
+  background-color: aqua;
 }
 
 .wrapper {
-  margin-top: 2.5rem;
   height: 100%;
   width: 100%;
-  padding-top: 5rem;
+  padding: 80px;
 }
 
 .titles {
@@ -29,12 +28,12 @@
 }
 
 .cards {
-  margin-top: 4rem;
+  margin-top: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 5rem;
+  gap: 80px;
 }
 
 .card {
@@ -47,42 +46,42 @@
   overflow: hidden;
 }
 
-.card > .top {
+.card .top {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding: 0.5rem 1.25rem;
+  padding: 15px 15px;
   border-bottom: 1px solid #888;
   height: 25%;
   background-color: #e4e0e0;
   cursor: pointer;
 }
 
-.card > .top > span {
+.card .top span {
   font-size: 22px;
   font-weight: 300;
   color: #000;
   display: flex;
   align-items: center;
-  margin-left: 1rem;
+  margin-left: 15px;
 }
 
-.card > .top > i {
+.card .top i {
   font-size: 24px;
 }
 
-.card > .top:hover {
+.card .top:hover {
   background-color: transparent;
 }
 
-.card > .bottom {
-  margin-top: 1.5rem;
-  padding: 0.5rem 1rem;
+.card .bottom {
+  margin-top: 15px;
+  padding: 15px 15px;
   font-size: 18px;
   line-height: 30px;
   color: #666;
 }
 
 .icon {
-  font-size: 2.5em;
+  font-size: 45px;
 }

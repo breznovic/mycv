@@ -6,7 +6,6 @@
 
 .wrapper {
   margin: 0 auto;
-  margin-top: 2.5rem;
   padding-top: 5rem;
   height: 100%;
   width: 80%;
@@ -59,14 +58,14 @@
   gap: 30px;
 }
 
-.bottom > .img {
+.bottom .img {
   width: 55rem;
   height: 30rem;
   object-fit: cover;
   opacity: 0.7;
 }
 
-.bottom > .img:hover {
+.bottom .img:hover {
   width: 52rem;
   opacity: 1;
 }

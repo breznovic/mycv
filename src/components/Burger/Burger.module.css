@@ -47,7 +47,7 @@ label input {
 }
 
 label input:checked + .menu {
-  box-shadow: 0 0 0 500px #fff, 0 0 0 700px #fff;
+  box-shadow: 0 0 0 500px #fff, 0 0 0 720px #fff;
   border-radius: 0;
 }
 
