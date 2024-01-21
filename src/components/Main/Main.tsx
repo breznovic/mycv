@@ -9,11 +9,22 @@ const Main = () => {
           <h2 className={s.title}>Hi, I am Evgeniy Berezkin</h2>
           <h4 className={s.subtitle}>Front-end Developer</h4>
           <p className={s.description}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
-            asperiores et? Neque iusto iure, perspiciatis excepturi similique
-            assumenda modi laboriosam reiciendis deserunt cupiditate facilis
-            inventore minima tempora quidem ullam laborum!
+            I possess strong skills in developing responsive and user-friendly
+            web applications and enjoy the process of translating design
+            concepts into fully functional and interactive websites.
           </p>
+          <p className={s.description}>
+            I have experience working with React and TypeScript and constantly
+            strive to learn and stay up-to-date with the latest web development
+            trends and best practices.
+          </p>
+          <p className={s.description}>
+            You can download my CV to get a more detailed understanding of my
+            competence in front-end development.
+          </p>
+          <div>
+            <button className={s.button}>Download my CV</button>
+          </div>
         </div>
         <div className={s.right}>
           <img src={senor} />
