@@ -6,7 +6,7 @@
 
 .wrapper {
   margin: 0 auto;
-  padding-top: 5rem;
+  padding-top: 80px;
   height: 100%;
   width: 80%;
 }
@@ -27,4 +27,8 @@
   color: rgb(132, 120, 120);
   font-weight: bold;
   font-size: 56px;
+}
+
+.slider {
+  margin-top: -15px;
 }

@@ -41,7 +41,7 @@
   gap: 50px;
 }
 
-.cards > div {
+.cards div {
   flex: 25%;
 }
 
@@ -62,7 +62,7 @@
   max-width: 25rem;
 }
 
-.card > span {
+.card span {
   text-align: center;
   color: #cec2c2;
   font-size: 19px;
@@ -74,7 +74,6 @@
   border-color: #1721ad;
 }
 
-.card:hover > span {
+.card:hover span {
   color: #1721ad;
 }
-

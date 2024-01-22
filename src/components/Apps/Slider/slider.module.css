@@ -29,6 +29,7 @@
   width: 810px;
   height: 500px;
   display: block;
+  margin-left: 130px;
   transition: transform 0.3s ease-in-out;
 }
 .slider img:hover {

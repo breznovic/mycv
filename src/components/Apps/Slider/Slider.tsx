@@ -69,9 +69,3 @@ const Slider = () => {
 };
 
 export default Slider;
-
-
-
-            <div className={s.bottom}>
-              <img src={thorvald} className={s.img} />
-            </div>

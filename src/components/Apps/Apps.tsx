@@ -8,7 +8,7 @@ const Works = () => {
         <div className={s.titles}>
           <h5 className={s.subtitle}>My apps examples</h5>
           <h2 className={s.title}>My apps</h2>
-          <div>
+          <div className={s.slider}>
             <Slider />
           </div>
         </div>
