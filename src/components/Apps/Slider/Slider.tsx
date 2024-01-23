@@ -55,15 +55,15 @@ const Slider = () => {
         <h2 className={s.appTitle}>{currentApp.title}</h2>
         <p className={s.description}>{currentApp.description}</p>
       </div>
-      <button onClick={prevSlide} className={`${s.button} ${s.prevButton}`}>
-        &lt;
-      </button>
       <div>
+        <button onClick={prevSlide} className={`${s.button} ${s.prevButton}`}>
+          &lt;
+        </button>
         <img src={images[activeIndex]} className={s.slideImage} />
+        <button onClick={nextSlide} className={`${s.button} ${s.nextButton}`}>
+          &gt;
+        </button>
       </div>
-      <button onClick={nextSlide} className={`${s.button} ${s.nextButton}`}>
-        &gt;
-      </button>
     </div>
   );
 };

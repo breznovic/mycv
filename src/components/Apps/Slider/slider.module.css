@@ -33,7 +33,7 @@
   transition: transform 0.3s ease-in-out;
 }
 .slider img:hover {
-  opacity: 0.9;
+  opacity: 0.7;
 }
 
 .appTitle {
@@ -47,4 +47,177 @@
   color: #444;
   font-size: 18px;
   margin: 1rem 0rem 1.5rem 0rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .appTitle {
+    color: rgb(255, 0, 76);
+    text-align: center;
+    font-size: 25px;
+  }
+  .slider img {
+    width: 410px;
+    height: 200px;
+    display: block;
+    margin-left: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .description {
+    font-weight: 300;
+    color: #444;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .prevButton {
+    margin: 60px 0px 0px 10px;
+    left: 0;
+  }
+  .nextButton {
+    margin-top: 60px;
+    right: 0;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .appTitle {
+    color: rgb(25, 0, 255);
+    text-align: center;
+    font-size: 25px;
+  }
+  .slider img {
+    width: 510px;
+    height: 300px;
+    display: block;
+    margin-left: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .description {
+    font-weight: 300;
+    color: #444;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .prevButton {
+    margin: 60px 0px 0px 10px;
+    left: 0;
+  }
+  .nextButton {
+    margin-top: 60px;
+    right: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .appTitle {
+    color: rgb(170, 10, 170);
+    text-align: center;
+    font-size: 27px;
+  }
+  .slider img {
+    width: 610px;
+    height: 400px;
+    display: block;
+    margin-left: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .description {
+    font-weight: 300;
+    color: #444;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .prevButton {
+    margin: 60px 0px 0px 10px;
+    left: 0;
+  }
+  .nextButton {
+    margin-top: 60px;
+    right: 0;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .appTitle {
+    color: rgb(39, 2, 2);
+    text-align: center;
+    font-size: 30px;
+  }
+  .slider img {
+    width: 710px;
+    height: 450px;
+    display: block;
+    margin-left: 43px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .description {
+    font-weight: 300;
+    color: #444;
+    font-size: 21px;
+    margin-left: 20px;
+  }
+  .prevButton {
+    margin: 60px 0px 0px 10px;
+    left: 0;
+  }
+  .nextButton {
+    margin-top: 60px;
+    right: 0;
+  }
+}
+
+@media only screen and (min-width: 1150px) {
+  .appTitle {
+    color: rgb(129, 30, 60);
+    text-align: center;
+    font-size: 30px;
+  }
+  .slider img {
+    width: 710px;
+    height: 450px;
+    display: block;
+    margin-left: 117px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .description {
+    font-weight: 300;
+    color: #444;
+    font-size: 21px;
+    margin-left: 20px;
+  }
+  .prevButton {
+    margin: 60px 0px 0px 10px;
+    left: 0;
+  }
+  .nextButton {
+    margin-top: 60px;
+    right: 0;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .appTitle {
+    color: rgb(151, 142, 14);
+    text-align: center;
+    font-size: 30px;
+  }
+  .slider img {
+    width: 810px;
+    height: 500px;
+    display: block;
+    margin-left: 250px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .description {
+    font-weight: 300;
+    color: #444;
+    font-size: 22px;
+    margin-left: 20px;
+  }
+  .prevButton {
+    margin: 60px 0px 0px 150px;
+    left: 0;
+  }
+  .nextButton {
+    margin: 60px 190px 0px 0px;
+    right: 0;
+  }
 }
