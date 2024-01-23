@@ -51,7 +51,7 @@
 
 @media only screen and (max-width: 600px) {
   .appTitle {
-    color: rgb(255, 0, 76);
+   /*  color: rgb(255, 0, 76); */
     text-align: center;
     font-size: 25px;
   }
@@ -80,7 +80,7 @@
 
 @media only screen and (min-width: 600px) {
   .appTitle {
-    color: rgb(25, 0, 255);
+   /*  color: rgb(25, 0, 255); */
     text-align: center;
     font-size: 25px;
   }
@@ -109,7 +109,7 @@
 
 @media (min-width: 768px) {
   .appTitle {
-    color: rgb(170, 10, 170);
+   /*  color: rgb(170, 10, 170); */
     text-align: center;
     font-size: 27px;
   }
@@ -137,7 +137,7 @@
 }
 @media only screen and (min-width: 992px) {
   .appTitle {
-    color: rgb(39, 2, 2);
+    /* color: rgb(39, 2, 2); */
     text-align: center;
     font-size: 30px;
   }
@@ -166,7 +166,7 @@
 
 @media only screen and (min-width: 1150px) {
   .appTitle {
-    color: rgb(129, 30, 60);
+   /*  color: rgb(129, 30, 60); */
     text-align: center;
     font-size: 30px;
   }
@@ -195,7 +195,7 @@
 
 @media only screen and (min-width: 1400px) {
   .appTitle {
-    color: rgb(151, 142, 14);
+   /*  color: rgb(151, 142, 14); */
     text-align: center;
     font-size: 30px;
   }

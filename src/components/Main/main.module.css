@@ -45,7 +45,7 @@
 
 @media only screen and (max-width: 600px) {
   .wrapper {
-    color: green;
+    /* color: green; */
     padding-top: 60px;
   }
 
@@ -76,7 +76,7 @@
 
 @media only screen and (min-width: 600px) {
   .wrapper {
-    color: red;
+    /* color: red; */
     padding-top: 60px;
   }
   .left .title {
@@ -106,7 +106,7 @@
 
 @media (min-width: 768px) {
   .wrapper {
-    color: yellow;
+    /* color: yellow; */
     padding-top: 60px;
   }
   .left .title {
@@ -136,7 +136,7 @@
 @media only screen and (min-width: 992px) {
   .wrapper > * {
     width: 50%;
-    color: blue;
+   /*  color: blue; */
     padding-left: 20px;
   }
   .left .title {
@@ -166,7 +166,7 @@
 @media only screen and (min-width: 1150px) {
   .wrapper > * {
     width: 50%;
-    color: pink;
+    /* color: pink; */
     padding: 50px 0px 0px 40px;
   }
   .left .title {
@@ -195,7 +195,7 @@
 @media only screen and (min-width: 1400px) {
   .wrapper > * {
     width: 50%;
-    color: rgb(128, 0, 128);
+   /*  color: rgb(128, 0, 128); */
     padding: 75px 0px 0px 90px;
   }
   .left .title {

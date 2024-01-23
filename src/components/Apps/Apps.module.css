@@ -63,7 +63,7 @@
 
 @media only screen and (max-width: 600px) {
   .wrapper {
-    background-color: green;
+    /* background-color: green; */
   }
   .subtitle {
     color: rgb(192, 183, 183);
@@ -90,7 +90,7 @@
 
 @media only screen and (min-width: 600px) {
   .wrapper {
-    background-color: red;
+    /* background-color: red; */
   }
   .subtitle {
     color: rgb(192, 183, 183);
@@ -117,7 +117,7 @@
 
 @media (min-width: 768px) {
   .wrapper {
-    background-color: yellow;
+   /*  background-color: yellow; */
   }
   .subtitle {
     color: rgb(192, 183, 183);
@@ -143,7 +143,7 @@
 }
 @media only screen and (min-width: 992px) {
   .wrapper {
-    background-color: blue;
+   /*  background-color: blue; */
   }
   .subtitle {
     color: rgb(192, 183, 183);
@@ -170,7 +170,7 @@
 
 @media only screen and (min-width: 1150px) {
   .wrapper {
-    background-color: pink;
+    /* background-color: pink; */
   }
   .subtitle {
     color: rgb(192, 183, 183);
@@ -197,7 +197,7 @@
 
 @media only screen and (min-width: 1400px) {
   .wrapper {
-    background-color: rgb(128, 0, 128);
+    /* background-color: rgb(128, 0, 128); */
   }
   .subtitle {
     color: rgb(192, 183, 183);

@@ -34,7 +34,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-      <Burger/>
+      <Burger />
     </div>
   );
 };

@@ -16,7 +16,7 @@ label .burger {
   top: 135px;
   left: 50px;
   width: 30px;
-  height: 2px;
+  height: 3px;
   background: #0a1acf;
   display: block;
   transform-origin: center;
@@ -47,7 +47,7 @@ label input {
 }
 
 label input:checked + .menu {
-  box-shadow: 0 0 0 500px #fff, 0 0 0 945px #fff;
+  box-shadow: 0 0 0 1000px #fff;
   border-radius: 0;
 }
 
@@ -72,7 +72,7 @@ label input:checked + .menu + ul {
 label ul {
   z-index: 200;
   position: absolute;
-  top: 150px;
+  top: 210px;
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
