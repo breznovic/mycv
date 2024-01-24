@@ -12,10 +12,6 @@ const Works = () => {
             <Slider />
           </div>
         </div>
-        <div className={s.buttonGroup}>
-          <button className={s.button}>Demo</button>
-          <button className={s.button}>Code</button>
-        </div>
       </div>
     </section>
   );

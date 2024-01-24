@@ -3,7 +3,7 @@
   overflow: hidden;
   margin-top: 80px;
 }
-.button {
+.sliderButton {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -16,7 +16,7 @@
   z-index: 1;
   transition: background-color 0.3s;
 }
-.button:hover {
+.sliderButton:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 .prevButton {
@@ -49,9 +49,45 @@
   margin: 1rem 0rem 1.5rem 0rem;
 }
 
+.buttonGroup {
+  display: flex;
+  gap: 30px;
+}
+
+.button {
+  background-color: blanchedalmond;
+  color: rgb(104, 89, 89);
+  border: 1px solid rgb(132, 120, 120);
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.button > a,
+.button > a:visited,
+.button > a:link {
+  text-decoration: none;
+  color: rgb(104, 89, 89);
+}
+
+.button:first-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.button:last-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.button:hover,
+.button:hover > a {
+  background-color: rgb(132, 120, 120);
+  color: blanchedalmond;
+}
+
 @media only screen and (max-width: 600px) {
   .appTitle {
-   /*  color: rgb(255, 0, 76); */
+    /*  color: rgb(255, 0, 76); */
     text-align: center;
     font-size: 25px;
   }
@@ -76,11 +112,16 @@
     margin-top: 60px;
     right: 0;
   }
+  .buttonGroup {
+    display: flex;
+    gap: 30px;
+    margin: 10px 0px 0px 100px;
+  }
 }
 
 @media only screen and (min-width: 600px) {
   .appTitle {
-   /*  color: rgb(25, 0, 255); */
+    /*  color: rgb(25, 0, 255); */
     text-align: center;
     font-size: 25px;
   }
@@ -105,11 +146,16 @@
     margin-top: 60px;
     right: 0;
   }
+  .buttonGroup {
+    display: flex;
+    gap: 30px;
+    margin: 10px 0px 0px 130px;
+  }
 }
 
 @media (min-width: 768px) {
   .appTitle {
-   /*  color: rgb(170, 10, 170); */
+    /*  color: rgb(170, 10, 170); */
     text-align: center;
     font-size: 27px;
   }
@@ -133,6 +179,11 @@
   .nextButton {
     margin-top: 60px;
     right: 0;
+  }
+  .buttonGroup {
+    display: flex;
+    gap: 30px;
+    margin: 15px 0px 0px 180px;
   }
 }
 @media only screen and (min-width: 992px) {
@@ -162,11 +213,16 @@
     margin-top: 60px;
     right: 0;
   }
+  .buttonGroup {
+    display: flex;
+    gap: 50px;
+    margin: 15px 0px 0px 265px;
+  }
 }
 
 @media only screen and (min-width: 1150px) {
   .appTitle {
-   /*  color: rgb(129, 30, 60); */
+    /*  color: rgb(129, 30, 60); */
     text-align: center;
     font-size: 30px;
   }
@@ -191,11 +247,16 @@
     margin-top: 60px;
     right: 0;
   }
+  .buttonGroup {
+    display: flex;
+    gap: 50px;
+    margin: 25px 0px 0px 365px;
+  }
 }
 
 @media only screen and (min-width: 1400px) {
   .appTitle {
-   /*  color: rgb(151, 142, 14); */
+    /*  color: rgb(151, 142, 14); */
     text-align: center;
     font-size: 30px;
   }
@@ -219,5 +280,10 @@
   .nextButton {
     margin: 60px 190px 0px 0px;
     right: 0;
+  }
+  .buttonGroup {
+    display: flex;
+    gap: 50px;
+    margin: 25px 0px 0px 590px;
   }
 }

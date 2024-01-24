@@ -12,12 +12,14 @@ const Skills = () => {
           <h5 className={s.subtitle}>What I offer</h5>
           <h2 className={s.title}>My skills</h2>
         </div>
+
         <div className={s.cards}>
           <div className={s.card}>
             <div className={s.top}>
               <BsFiletypeHtml className={s.icon} />
               <span>HTML/CSS</span>
             </div>
+
             <div className={s.bottom}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Consectetur nostrum officia quaerat hic rem aut tenetur pariatur

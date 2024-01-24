@@ -4,23 +4,32 @@ import thorvald from "../../../assets/thorvaldClicker.png";
 import todolist from "../../../assets/todolist.png";
 import langish from "../../../assets/langish.png";
 
+type AppType = {
+  title: string
+  description: string
+  link: string
+}
+
 const Slider = () => {
   let images = [thorvald, todolist, langish];
-  let apps = [
+  let apps: AppType[] = [
     {
       title: "Thorvald clicker game",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet",
+      link: "https://github.com/breznovic/thorvald",
     },
     {
       title: "Todolist",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet",
+      link: "https://github.com/breznovic/truetodo",
     },
     {
       title: "Langish",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet",
+      link: "https://github.com/breznovic/langish",
     },
   ];
 
@@ -50,21 +59,37 @@ const Slider = () => {
   };
 
   return (
-    <div className={s.slider}>
-      <div>
-        <h2 className={s.appTitle}>{currentApp.title}</h2>
-        <p className={s.description}>{currentApp.description}</p>
+    <>
+      <div className={s.slider}>
+        <div>
+          <h2 className={s.appTitle}>{currentApp.title}</h2>
+          <p className={s.description}>{currentApp.description}</p>
+        </div>
+        <div>
+          <button
+            onClick={prevSlide}
+            className={`${s.sliderButton} ${s.prevButton}`}
+          >
+            &lt;
+          </button>
+          <img src={images[activeIndex]} className={s.slideImage} />
+          <button
+            onClick={nextSlide}
+            className={`${s.sliderButton} ${s.nextButton}`}
+          >
+            &gt;
+          </button>
+        </div>
       </div>
-      <div>
-        <button onClick={prevSlide} className={`${s.button} ${s.prevButton}`}>
-          &lt;
-        </button>
-        <img src={images[activeIndex]} className={s.slideImage} />
-        <button onClick={nextSlide} className={`${s.button} ${s.nextButton}`}>
-          &gt;
+      <div className={s.buttonGroup}>
+        <button className={s.button}>Demo</button>
+        <button className={s.button}>
+          <a href={currentApp.link} target="_blank" rel="noreferrer">
+            Code
+          </a>
         </button>
       </div>
-    </div>
+    </>
   );
 };
 

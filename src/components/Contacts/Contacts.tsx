@@ -22,6 +22,10 @@ const Contacts = () => {
               <span>Telegram</span>
               <span>Berezkin</span>
             </div>
+            <div className={s.card}>
+              <span>Location</span>
+              <span>Moscow</span>
+            </div>
           </div>
         </div>
       </div>
