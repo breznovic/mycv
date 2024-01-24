@@ -8,6 +8,7 @@
   z-index: 100;
   box-shadow: 1px -1px 34px 3px rgba(0, 0, 0, 0.1);
   white-space: nowrap;
+  animation: slideIn 1s forwards;
 }
 
 .wrapper {
@@ -43,6 +44,15 @@
 
 .listItem a:hover {
   color: #0a1acf;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
 
 @media (max-width: 576px) {

@@ -39,6 +39,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
+  animation: slipDown 1s forwards;
 }
 
 .cards div {
@@ -76,4 +77,15 @@
 
 .card:hover span {
   color: #1721ad;
+}
+
+@keyframes slipDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

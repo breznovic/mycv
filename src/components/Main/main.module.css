@@ -24,9 +24,19 @@
   flex: 0 0 auto;
 }
 
+.left .title {
+  animation: fall-and-bounce 1s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+.left .subtitle {
+  animation: fall-and-bounce 1s ease-in-out forwards;
+  animation-delay: 1s;
+}
+
 .left .description {
   max-width: 730px;
   text-align: justify;
+  animation:emergence 2s ease-in;
 }
 
 .button {
@@ -36,11 +46,51 @@
   border: 1px solid #fff;
   border-radius: 4px;
   cursor: pointer;
+  animation:emergence 2s ease-in;
 }
 
 .button:hover {
   background-color: #fff;
   color: #1721ad;
+}
+
+.right img {
+  animation: emergence 2s ease-in;
+}
+
+@keyframes emergence {
+  0% {
+    opacity: 0;
+    transform: scale(0.2);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fall-and-bounce {
+  0% {
+    top: -200px;
+    opacity: 0;
+    transform: translateY(-200px);
+  }
+  60% {
+    opacity: 0.25;
+    transform: translateY(0);
+  }
+  75% {
+    opacity: 0.50;
+    transform: translateY(-30px);
+  }
+  90% {
+    opacity: 0.75;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-15px);
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -136,7 +186,7 @@
 @media only screen and (min-width: 992px) {
   .wrapper > * {
     width: 50%;
-   /*  color: blue; */
+    /*  color: blue; */
     padding-left: 20px;
   }
   .left .title {
@@ -195,7 +245,7 @@
 @media only screen and (min-width: 1400px) {
   .wrapper > * {
     width: 50%;
-   /*  color: rgb(128, 0, 128); */
+    /*  color: rgb(128, 0, 128); */
     padding: 75px 0px 0px 90px;
   }
   .left .title {

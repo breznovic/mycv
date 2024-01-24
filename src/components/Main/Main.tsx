@@ -26,9 +26,7 @@ const Main = () => {
             <button className={s.button}>Download my CV</button>
           </div>
         </div>
-        <div className={s.right}>
-          <img src={senor} />
-        </div>
+        <div className={s.right}>{<img src={senor} />}</div>
       </div>
     </section>
   );
