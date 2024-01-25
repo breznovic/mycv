@@ -1,13 +1,20 @@
 import senor from "../../assets/senor.webp";
 import s from "./main.module.css";
 
+const Fade = require("react-reveal/Fade");
+const Jump = require("react-reveal/Jump");
+
 const Main = () => {
   return (
     <section id="about" className={s.container}>
       <div className={s.wrapper}>
         <div className={s.left}>
-          <h2 className={s.title}>Hi, I am Evgeniy Berezkin</h2>
-          <h4 className={s.subtitle}>Front-end Developer</h4>
+          <Fade top>
+            <h2 className={s.title}>Hi, I am Evgeniy Berezkin</h2>
+          </Fade>
+          <Jump>
+            <h4 className={s.subtitle}>Front-end Developer</h4>
+          </Jump>
           <p className={s.description}>
             I possess strong skills in developing responsive and user-friendly
             web applications and enjoy the process of translating design

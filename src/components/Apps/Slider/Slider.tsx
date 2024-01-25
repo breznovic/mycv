@@ -5,10 +5,12 @@ import todolist from "../../../assets/todolist.png";
 import langish from "../../../assets/langish.png";
 
 type AppType = {
-  title: string
-  description: string
-  link: string
-}
+  title: string;
+  description: string;
+  link: string;
+};
+
+const Zoom = require("react-reveal/Zoom");
 
 const Slider = () => {
   let images = [thorvald, todolist, langish];
@@ -72,7 +74,9 @@ const Slider = () => {
           >
             &lt;
           </button>
-          <img src={images[activeIndex]} className={s.slideImage} />
+          <Zoom left>
+            <img src={images[activeIndex]} className={s.slideImage} />
+          </Zoom>
           <button
             onClick={nextSlide}
             className={`${s.sliderButton} ${s.nextButton}`}

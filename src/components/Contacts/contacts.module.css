@@ -38,7 +38,6 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
-  animation: slipDown 1s forwards;
 }
 
 .cards div {
@@ -74,17 +73,6 @@
 
 .card:hover span {
   color: #1721ad;
-}
-
-@keyframes slipDown {
-  0% {
-    opacity: 0;
-    transform: translateY(-100%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -136,7 +124,7 @@
 }
 @media only screen and (min-width: 992px) {
   .sides {
-   /*  background-color: blue; */
+    /*  background-color: blue; */
     margin: 100px 0px 0px 0px;
   }
   .cards {
@@ -152,7 +140,7 @@
 
 @media only screen and (min-width: 1150px) {
   .sides {
-   /*  background-color: red; */
+    /*  background-color: red; */
     margin: 100px 0px 0px auto;
   }
   .cards {
@@ -168,7 +156,7 @@
 
 @media only screen and (min-width: 1400px) {
   .sides {
-   /*  background-color: rgb(151, 142, 14); */
+    /*  background-color: rgb(151, 142, 14); */
     margin: 100px 0px 0px 220px;
   }
   .cards {
