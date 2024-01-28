@@ -22,10 +22,17 @@ const Skills = () => {
                 <span>HTML/CSS</span>
               </div>
               <div className={s.bottom}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consectetur nostrum officia quaerat hic rem aut tenetur pariatur
-                recusandae a id facere ducimus eius totam libero ut, veniam
-                accusamus earum tempore?
+                <ul>
+                  <li>Proficient in writing semantic and structured HTML code</li>
+                  <li>
+                    Experience in responsive web design using media queries,
+                    flexbox, and grid models
+                  </li>
+                  <li>
+                    Skilled in developing apps with UI frameworks like MUI and
+                    CSS preprocessors like Sass
+                  </li>
+                </ul>
               </div>
             </div>
           </Rotate>
@@ -36,10 +43,19 @@ const Skills = () => {
                 <span>JavaScript</span>
               </div>
               <div className={s.bottom}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consectetur nostrum officia quaerat hic rem aut tenetur pariatur
-                recusandae a id facere ducimus eius totam libero ut, veniam
-                accusamus earum tempore?
+                <ul>
+                  <li>
+                    I have a strong understanding of core language concepts and
+                    features
+                  </li>
+                  <li>
+                    Skilled in working with asynchronous programming to handle
+                    data fetching
+                  </li>
+                  <li>
+                    Proficient in using debugging tools to fix issues in code
+                  </li>
+                </ul>
               </div>
             </div>
           </Rotate>
@@ -50,10 +66,20 @@ const Skills = () => {
                 <span>React</span>
               </div>
               <div className={s.bottom}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consectetur nostrum officia quaerat hic rem aut tenetur pariatur
-                recusandae a id facere ducimus eius totam libero ut, veniam
-                accusamus earum tempore?{" "}
+                <ul>
+                  <li>
+                    Extensive experience in developing scalable and reusable
+                    components
+                  </li>
+                  <li>
+                    Skilled in utilizing React hooks for managing component
+                    state
+                  </li>
+                  <li>
+                    Familiarity with React Router for creating dynamic and
+                    navigable SPA
+                  </li>
+                </ul>
               </div>
             </div>
           </Rotate>
@@ -64,10 +90,17 @@ const Skills = () => {
                 <span>TypeScript</span>
               </div>
               <div className={s.bottom}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consectetur nostrum officia quaerat hic rem aut tenetur pariatur
-                recusandae a id facere ducimus eius totam libero ut, veniam
-                accusamus earum tempore?
+                <ul>
+                  <li>Strong understanding of type system and features</li>
+                  <li>
+                    Extensive experience in configuration for managing code
+                    organization
+                  </li>
+                  <li>
+                    Knowledgeable in leveraging TypeScript's features such as
+                    generics and conditional types
+                  </li>
+                </ul>
               </div>
             </div>
           </Rotate>
@@ -78,10 +111,20 @@ const Skills = () => {
                 <span>Redux Toolkit</span>
               </div>
               <div className={s.bottom}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consectetur nostrum officia quaerat hic rem aut tenetur pariatur
-                recusandae a id facere ducimus eius totam libero ut, veniam
-                accusamus earum tempore?
+                <ul>
+                  <li>
+                    Proficient in building scalable and maintainable
+                    applications
+                  </li>
+                  <li>
+                    Skilled in defining Redux state and reducers in a concise
+                    and modular manner
+                  </li>
+                  <li>
+                    Experience in integrating RTK with components for efficient
+                    state management in UI hierarchies
+                  </li>
+                </ul>
               </div>
             </div>
           </Rotate>

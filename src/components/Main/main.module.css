@@ -69,30 +69,6 @@
   }
 }
 
-/* @keyframes fall-and-bounce {
-  0% {
-    top: -200px;
-    opacity: 0;
-    transform: translateY(-200px);
-  }
-  60% {
-    opacity: 0.25;
-    transform: translateY(0);
-  }
-  75% {
-    opacity: 0.50;
-    transform: translateY(-30px);
-  }
-  90% {
-    opacity: 0.75;
-    transform: translateY(0);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(-15px);
-  }
-} */
-
 @media only screen and (max-width: 600px) {
   .wrapper {
     /* color: green; */

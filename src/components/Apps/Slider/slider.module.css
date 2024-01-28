@@ -4,8 +4,7 @@
   margin-top: 80px;
 }
 .sliderButton {
-  position: absolute;
-  top: 50%;
+  position: relative;
   transform: translateY(-50%);
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
@@ -19,12 +18,7 @@
 .sliderButton:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
-.prevButton {
-  left: 0;
-}
-.nextButton {
-  right: 0;
-}
+
 .slider img {
   width: 810px;
   height: 500px;
@@ -34,6 +28,11 @@
 }
 .slider img:hover {
   opacity: 0.7;
+}
+
+.img {
+  display: flex;
+  align-items: center;
 }
 
 .appTitle {
@@ -173,12 +172,10 @@
     margin-left: 10px;
   }
   .prevButton {
-    margin: 60px 0px 0px 10px;
-    left: 0;
+    margin: 60px 0px 0px 0px;
   }
   .nextButton {
     margin-top: 60px;
-    right: 0;
   }
   .buttonGroup {
     display: flex;
@@ -264,7 +261,7 @@
     width: 810px;
     height: 500px;
     display: block;
-    margin-left: 250px;
+    margin-left: 0px;
     transition: transform 0.3s ease-in-out;
   }
   .description {
@@ -274,12 +271,10 @@
     margin-left: 20px;
   }
   .prevButton {
-    margin: 60px 0px 0px 150px;
-    left: 0;
+    margin: 60px 0px 0px 230px;
   }
   .nextButton {
-    margin: 60px 190px 0px 0px;
-    right: 0;
+    margin: 60px 0px 0px 0px;
   }
   .buttonGroup {
     display: flex;

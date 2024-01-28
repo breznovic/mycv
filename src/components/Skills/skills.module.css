@@ -74,11 +74,8 @@
 }
 
 .card .bottom {
-  margin-top: 5px;
-  padding: 15px 15px;
-  font-size: 18px;
-  line-height: 30px;
   color: #666;
+  text-align: justify;
 }
 
 .icon {
@@ -87,50 +84,85 @@
 
 @media (max-width: 768px) {
   .wrapper {
-    /* color: rgb(0, 255, 242); */
+    color: rgb(0, 255, 242);
   }
   .card {
     width: 255px;
+  }
+  .card .bottom {
+    margin: 0px 0px 0px 10px;
+    padding: 4px 12px;
+    font-size: 14px;
+    line-height: 25px;
   }
 }
 
 @media (min-width: 576px) {
   .wrapper {
-    /* color: rgb(255, 0, 179); */
+    color: rgb(255, 0, 179);
   }
   .card {
-    width: 255px;
+    width: 85%;
+  }
+  .card .bottom {
+    margin: 3px 0px 0px 10px;
+    padding: 4px 14px;
+    font-size: 15px;
+    line-height: 28px;
   }
 }
 
 @media (min-width: 768px) {
   .wrapper {
-    /* color: green; */
+    color: green;
   }
   .card {
-    width: 255px;
+    width: 38%;
+  }
+  .card .bottom {
+    margin: 0px 0px 0px 10px;
+    padding: 4px 12px;
+    font-size: 14px;
+    line-height: 25px;
   }
 }
 
 @media (min-width: 992px) {
   .wrapper {
-    /* color: red; */
+    color: red;
+  }
+  .card .bottom {
+    padding: 0px 12px;
+    font-size: 15px;
+    line-height: 26px;
   }
   .card {
-    width: 255px;
+    width: 38%;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .wrapper {
-    /* color: rgb(238, 255, 0); */
+    color: salmon;
   }
   .card .bottom {
-    margin-top: 5px;
-    padding: 15px 15px;
+    padding: 0px 12px;
+    font-size: 15px;
+    line-height: 26px;
+  }
+  .card {
+    width: 25%;
+  }
+}
+
+@media (min-width: 1800px) {
+  .wrapper {
+    color: rgb(238, 255, 0);
+  }
+  .card .bottom {
+    padding: 12px 15px;
     font-size: 18px;
     line-height: 30px;
-    color: #666;
   }
   .card {
     width: 25%;

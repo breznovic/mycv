@@ -18,19 +18,19 @@ const Slider = () => {
     {
       title: "Thorvald clicker game",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet",
+        "A fantasy game about the adventures of troll Thorvald, developed using TypeScript, Redux Toolkit and React Router",
       link: "https://github.com/breznovic/thorvald",
     },
     {
       title: "Todolist",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet",
+        "A simple but functional Todolist made using TypeScript, MUI, Redux Toolkit, Axios, React Router and Formik",
       link: "https://github.com/breznovic/truetodo",
     },
     {
       title: "Langish",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet",
+        "An application for learning foreign languages created using TypeScript, Redux Toolkit and React Router",
       link: "https://github.com/breznovic/langish",
     },
   ];
@@ -67,7 +67,7 @@ const Slider = () => {
           <h2 className={s.appTitle}>{currentApp.title}</h2>
           <p className={s.description}>{currentApp.description}</p>
         </div>
-        <div>
+        <div className={s.img}>
           <button
             onClick={prevSlide}
             className={`${s.sliderButton} ${s.prevButton}`}
@@ -75,7 +75,7 @@ const Slider = () => {
             &lt;
           </button>
           <Zoom left>
-            <img src={images[activeIndex]} className={s.slideImage} />
+            <img src={images[activeIndex]} />
           </Zoom>
           <button
             onClick={nextSlide}
