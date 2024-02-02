@@ -23,7 +23,9 @@ const Skills = () => {
               </div>
               <div className={s.bottom}>
                 <ul>
-                  <li>Proficient in writing semantic and structured HTML code</li>
+                  <li>
+                    Proficient in writing semantic and structured HTML code
+                  </li>
                   <li>
                     Experience in responsive web design using media queries,
                     flexbox, and grid models
@@ -97,8 +99,8 @@ const Skills = () => {
                     organization
                   </li>
                   <li>
-                    Knowledgeable in leveraging TypeScript's features such as
-                    generics and conditional types
+                    Knowledgeable in leveraging TS features such as generics and
+                    conditional types
                   </li>
                 </ul>
               </div>
@@ -122,7 +124,7 @@ const Skills = () => {
                   </li>
                   <li>
                     Experience in integrating RTK with components for efficient
-                    state management in UI hierarchies
+                    state management
                   </li>
                 </ul>
               </div>

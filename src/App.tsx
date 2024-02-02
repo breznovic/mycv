@@ -1,5 +1,4 @@
 import "./App.css";
-import Test from "./Test";
 import Apps from "./components/Apps/Apps";
 import Contact from "./components/Contacts/Contacts";
 import Main from "./components/Main/Main";
@@ -10,7 +9,6 @@ function App() {
   return (
     <div>
       <Nav />
-     {/*  <Test/> */}
       <Main />
       <Skills />
       <Apps />
