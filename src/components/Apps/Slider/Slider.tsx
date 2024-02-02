@@ -39,7 +39,7 @@ const Slider = () => {
 
   const currentApp = apps[activeIndex];
 
-  const interval = 7000;
+  const interval = 4500;
 
   useEffect(() => {
     const autoPlayInterval = setInterval(nextSlide, interval);
@@ -58,6 +58,10 @@ const Slider = () => {
     setActiveIndex((prevIndex) =>
       prevIndex === 0 ? images.length - 1 : prevIndex - 1
     );
+  };
+
+  const toCode = () => {
+    window.open(currentApp.link, "_blank");
   };
 
   return (
@@ -87,10 +91,8 @@ const Slider = () => {
       </div>
       <div className={s.buttonGroup}>
         <button className={s.button}>Demo</button>
-        <button className={s.button}>
-          <a href={currentApp.link} target="_blank" rel="noreferrer">
-            Code
-          </a>
+        <button className={s.button} onClick={toCode}>
+          Code
         </button>
       </div>
     </>

@@ -29,10 +29,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .wrapper {
-     background-color: green;
-    margin-top: 50px;
-  }
   .title {
     font-size: 40px;
   }
@@ -42,10 +38,6 @@
 }
 
 @media only screen and (min-width: 600px) {
-  .wrapper {
-    background-color: red;
-    margin-top: 50px;
-  }
   .title {
     font-size: 40px;
   }
@@ -55,9 +47,6 @@
 }
 
 @media (min-width: 768px) {
-  .wrapper {
-    background-color: yellow;
-  }
   .title {
     font-size: 44px;
   }
@@ -66,9 +55,6 @@
   }
 }
 @media only screen and (min-width: 992px) {
-  .wrapper {
-    background-color: blue;
-  }
   .title {
     font-size: 47px;
   }
@@ -78,9 +64,6 @@
 }
 
 @media only screen and (min-width: 1150px) {
-  .wrapper {
-     background-color: pink;
-  }
   .title {
     font-size: 47px;
   }
@@ -90,9 +73,6 @@
 }
 
 @media only screen and (min-width: 1400px) {
-  .wrapper {
-     background-color: rgb(128, 0, 128);
-  }
   .title {
     font-size: 47px;
   }
