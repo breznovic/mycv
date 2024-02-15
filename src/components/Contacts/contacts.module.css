@@ -46,12 +46,10 @@
 
 .card {
   border: 1px solid #fff;
-  padding: 1.5rem;
+  padding: 35px 20px 0px 20px;
   height: 7rem;
   border-radius: 16px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   gap: 10px;
   color: #fff;
   font-size: 22px;
@@ -59,10 +57,23 @@
   max-width: 25rem;
 }
 
-.card span {
+.cardInfo {
+  display: flex;
   text-align: center;
   color: #cec2c2;
-  font-size: 19px;
+  font-size: 23px;
+  gap: 10px;
+  justify-content: flex-start;
+  margin-right: 140px; 
+}
+
+.cardInfo a {
+  text-decoration: none;
+  color: #cec2c2;
+}
+
+.icon {
+  font-size: 28px;
 }
 
 .card:hover {
