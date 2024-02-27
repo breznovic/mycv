@@ -30,7 +30,14 @@ const Main = () => {
             competence in front-end development.
           </p>
           <div>
-            <button className={s.button}>Download my CV</button>
+            {/*  <button className={s.button}>Download my CV</button> */}
+            <a
+              href="https://example.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className={s.button}>More about me</button>
+            </a>
           </div>
         </div>
         <div className={s.right}>{<img src={senor} />}</div>

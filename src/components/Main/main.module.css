@@ -36,7 +36,7 @@
 .left .description {
   max-width: 730px;
   text-align: justify;
-  animation:emergence 2s ease-in;
+  animation: emergence 2s ease-in;
 }
 
 .button {
@@ -46,7 +46,7 @@
   border: 1px solid #fff;
   border-radius: 4px;
   cursor: pointer;
-  animation:emergence 2s ease-in;
+  animation: emergence 2s ease-in;
 }
 
 .button:hover {
