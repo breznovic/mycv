@@ -28,14 +28,14 @@ const Slider = () => {
       description:
         "A simple but functional Todolist made using TypeScript, MUI, Redux Toolkit, Axios, React Router and Formik",
       link: "https://github.com/breznovic/truetodo",
-      deploy: "",
+      deploy: "https://todolist-alpha-ecru.vercel.app/",
     },
     {
       title: "Langish",
       description:
         "An application for learning foreign languages created using TypeScript, Redux Toolkit and React Router",
       link: "https://github.com/breznovic/langish",
-      deploy: "",
+      deploy: "https://langish-32h641gf7-breznovics-projects.vercel.app/",
     },
   ];
 
@@ -43,7 +43,7 @@ const Slider = () => {
 
   const currentApp = apps[activeIndex];
 
-  const interval = 4500;
+  const interval = 5000;
 
   useEffect(() => {
     const autoPlayInterval = setInterval(nextSlide, interval);
