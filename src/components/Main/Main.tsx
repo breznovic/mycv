@@ -1,5 +1,5 @@
-import senor from "../../assets/senor.webp";
 import s from "./main.module.css";
+import photo from "../../assets/myPhoto.jpg";
 
 const Fade = require("react-reveal/Fade");
 const Jump = require("react-reveal/Jump");
@@ -32,7 +32,7 @@ const Main = () => {
           <div>
             {/*  <button className={s.button}>Download my CV</button> */}
             <a
-              href="https://example.com"
+              href="https://hh.ru/resume/2bb77c5aff0963f02a0039ed1f314f73397563"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -40,7 +40,7 @@ const Main = () => {
             </a>
           </div>
         </div>
-        <div className={s.right}>{<img src={senor} />}</div>
+        <div className={s.right}>{<img src={photo} />}</div>
       </div>
     </section>
   );
