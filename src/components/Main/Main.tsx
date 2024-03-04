@@ -25,9 +25,13 @@ const Main = () => {
             strive to learn and stay up-to-date with the latest web development
             trends and best practices.
           </p>
-          <p className={s.description}>
+          {/*  <p className={s.description}>
             You can download my CV to get a more detailed understanding of my
             competence in front-end development.
+          </p> */}
+          <p className={s.description}>
+            By clicking on the link below, you can get a more detailed overview
+            of my skills.
           </p>
           <div>
             {/*  <button className={s.button}>Download my CV</button> */}
