@@ -1,6 +1,5 @@
 {
   "name": "mycv",
-  "homepage": "https://breznovic.github.io/mycv",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
