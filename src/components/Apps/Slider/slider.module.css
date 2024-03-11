@@ -291,6 +291,7 @@
   .appTitle {
     text-align: center;
     font-size: 30px;
+    margin-bottom: 20px;
   }
   .slider img {
     width: 810px;
@@ -300,6 +301,7 @@
   }
   .description {
     font-size: 22px;
+    margin-bottom: 20px;
   }
   .prevButton {
     margin: 60px 0px 0px 50px;

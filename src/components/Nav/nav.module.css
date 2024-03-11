@@ -16,9 +16,9 @@
   margin: 0 auto;
   padding: 0.75rem 4.8rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
+  gap: 750px;
 }
 
 .name h2 {
@@ -57,6 +57,9 @@
 }
 
 @media (max-width: 576px) {
+  .wrapper {
+    gap: 140px;
+  }
   .listItem {
     font-size: 16px;
     margin-top: 2px;
@@ -71,78 +74,124 @@
 }
 
 @media (min-width: 576px) {
+  .wrapper {
+    gap: 90px;
+  }
   .listItem {
     font-size: 15px;
-    /*  color: red; */
   }
   .name {
     margin: 0px 35px 0px -100px;
     font-size: 14px;
   }
   .right .list {
-    gap: 15px;
-    margin: 0px 0px 0px -15px;
+    gap: 37px;
   }
 }
 
 @media (min-width: 626px) {
+  .wrapper {
+    gap: 100px;
+  }
   .listItem {
     font-size: 16px;
     margin-top: 1px;
-    /* color: navy; */
+   /*  color: navy; */
   }
   .name {
-    margin: 0px 35px 0px -100px;
     font-size: 14px;
   }
   .right .list {
-    gap: 15px;
-    margin-left: 10px;
+    gap: 45px;
   }
 }
 
 @media (min-width: 668px) {
+  .wrapper {
+    gap: 140px;
+  }
   .listItem {
     font-size: 17px;
     margin-top: 2px;
-    /*  color: grey; */
+   /*  color: grey; */
   }
   .name {
-    margin: 0px 35px 0px -100px;
     font-size: 14px;
   }
   .right .list {
-    gap: 14px;
-    margin-left: 20px;
+    gap: 50px;
   }
 }
 
 @media (min-width: 768px) {
+  .wrapper {
+    gap: 170px;
+  }
   .right .list {
-    gap: 25px;
+    gap: 50px;
     margin-left: 50px;
   }
   .listItem {
-    font-size: 18px;
-    /*  color: yellow; */
+    font-size: 17px;
+   /*  color: yellow; */
   }
 }
 
 @media (min-width: 992px) {
+  .wrapper {
+    gap: 400px;
+  }
   .listItem {
     font-size: 18px;
-    /* color: brown; */
+   /*  color: brown; */
   }
   .right .list {
-    gap: 25px;
+    gap: 50px;
   }
 }
 
 @media (min-width: 1200px) {
+  .wrapper {
+    gap: 520px;
+  }
   .right .list {
-    gap: 30px;
+    gap: 55px;
   }
   .listItem {
-    /* color: green; */
+   /*  color: green; */
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .wrapper {
+    gap: 540px;
+  }
+  .right .list {
+    gap: 50px;
+  }
+  .listItem {
+   /*  color: burlywood; */
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .wrapper {
+    gap: 550px;
+  }
+
+  .right .list {
+    gap: 40px;
+  }
+  .listItem {
+   /*  color: khaki; */
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .right .list {
+    gap: 40px;
+  }
+  .listItem {
+   /*  color: greenyellow; */
   }
 }
