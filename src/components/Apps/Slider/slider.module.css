@@ -28,6 +28,13 @@
   justify-content: center;
 }
 
+.infoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .appTitle {
   color: rgb(132, 120, 120);
   text-align: center;
@@ -37,8 +44,6 @@
 .description {
   font-weight: 300;
   color: #444;
-  font-size: 18px;
-  margin: 1rem 0rem 1.5rem 0rem;
 }
 
 .buttonGroup {
@@ -82,16 +87,22 @@
     text-align: center;
     font-size: 25px;
   }
+
   .slider img {
-    width: 395px;
+    width: 280px;
     height: 200px;
-    margin-left: 0px;
   }
+
+  .sliderButton {
+    font-size: 1.2rem;
+  }
+
   .description {
     font-size: 17px;
-    padding: 0px 0px 5px 10px;
-    margin-left: 7px;
+    padding: 10px 0px 15px 0px;
+    margin-left: 10px;
   }
+
   .prevButton {
     margin: 60px 0px 0px 0px;
   }
@@ -102,6 +113,37 @@
     display: flex;
     gap: 30px;
     margin: 15px 0px 0px 10px;
+  }
+}
+
+@media only screen and (width: 414px) and (height: 896px) {
+  .appTitle {
+    /*  color: red; */
+  }
+  .slider img {
+    width: 310px;
+    height: 210px;
+  }
+  .description {
+    font-size: 17px;
+    padding: 10px 0px 15px 10px;
+  }
+}
+
+@media only screen and (width: 390px) and (height: 844px) {
+  .appTitle {
+    /* color: maroon; */
+  }
+
+  .img {
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (width: 430px) and (height: 932px) {
+  .slider img {
+    width: 330px;
+    height: 220px;
   }
 }
 

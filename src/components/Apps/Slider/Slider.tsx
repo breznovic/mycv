@@ -75,7 +75,7 @@ const Slider = () => {
   return (
     <>
       <div className={s.slider}>
-        <div>
+        <div className={s.infoContainer}>
           <h2 className={s.appTitle}>{currentApp.title}</h2>
           <p className={s.description}>{currentApp.description}</p>
         </div>
