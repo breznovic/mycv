@@ -88,26 +88,3 @@ label a {
   font-size: 20px;
 }
 
-@media (min-width: 576px) {
-  .hide {
-    display: none;
-  }
-}
-
-@media (min-width: 768px) {
-  .hide {
-    display: none;
-  }
-}
-
-@media (min-width: 992px) {
-  .hide {
-    display: none;
-  }
-}
-
-@media (min-width: 1200px) {
-  .hide {
-    display: none;
-  }
-}

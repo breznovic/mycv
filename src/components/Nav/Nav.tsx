@@ -34,7 +34,9 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-      <Burger />
+      <div className={s.hide}>
+        <Burger />
+      </div>
     </div>
   );
 };

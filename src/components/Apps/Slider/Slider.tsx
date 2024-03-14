@@ -28,7 +28,7 @@ const Slider = () => {
       description:
         "A simple but functional Todolist made using TypeScript, MUI, Redux Toolkit, Axios, React Router and Formik",
       link: "https://github.com/breznovic/truetodo",
-      deploy: "https://todolist-alpha-ecru.vercel.app/",
+      deploy: "https://truetodo.vercel.app/",
     },
     {
       title: "Langish",

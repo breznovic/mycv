@@ -1,7 +1,7 @@
 .container {
   background-color: #fff;
   max-height: 60px;
-  width: 100%;
+  max-width: 100%;
   position: sticky;
   top: 0;
   left: 0;
@@ -9,16 +9,18 @@
   box-shadow: 1px -1px 34px 3px rgba(0, 0, 0, 0.1);
   white-space: nowrap;
   animation: slideIn 1s forwards;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .wrapper {
-  width: 85%;
+  width: 95%;
   margin: 0 auto;
-  padding: 0.75rem 4.8rem;
+  padding: 30px 50px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  gap: 750px;
 }
 
 .name h2 {
@@ -27,14 +29,19 @@
   cursor: pointer;
 }
 
+.right {
+  margin-right: 130px;
+}
+
 .right .list {
   list-style: none;
   display: flex;
-  align-items: center;
+  gap: 50px;
 }
 
 .listItem {
   font-weight: 500;
+  font-size: 18px;
 }
 
 .listItem a {
@@ -56,142 +63,44 @@
   }
 }
 
-@media (max-width: 576px) {
-  .wrapper {
-    gap: 140px;
-  }
-  .listItem {
-    font-size: 16px;
-    margin-top: 2px;
+@media only screen and (max-width: 375px) {
+  .right {
+    display: none;
   }
   .name {
-    margin: 0px 260px 0px 0px;
-    font-size: 14px;
+    margin-right: 260px;
   }
-  .right .list {
+}
+
+@media only screen and (max-width: 575.98px) {
+  .right {
+    display: none;
+  }
+  .name {
+    margin-right: 260px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .hide {
     display: none;
   }
 }
 
-@media (min-width: 576px) {
-  .wrapper {
-    gap: 90px;
-  }
-  .listItem {
-    font-size: 15px;
-  }
-  .name {
-    margin: 0px 35px 0px -100px;
-    font-size: 14px;
-  }
-  .right .list {
-    gap: 37px;
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .hide {
+    display: none;
   }
 }
 
-@media (min-width: 626px) {
-  .wrapper {
-    gap: 100px;
-  }
-  .listItem {
-    font-size: 16px;
-    margin-top: 1px;
-   /*  color: navy; */
-  }
-  .name {
-    font-size: 14px;
-  }
-  .right .list {
-    gap: 45px;
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .hide {
+    display: none;
   }
 }
 
-@media (min-width: 668px) {
-  .wrapper {
-    gap: 140px;
-  }
-  .listItem {
-    font-size: 17px;
-    margin-top: 2px;
-   /*  color: grey; */
-  }
-  .name {
-    font-size: 14px;
-  }
-  .right .list {
-    gap: 50px;
-  }
-}
-
-@media (min-width: 768px) {
-  .wrapper {
-    gap: 170px;
-  }
-  .right .list {
-    gap: 50px;
-    margin-left: 50px;
-  }
-  .listItem {
-    font-size: 17px;
-   /*  color: yellow; */
-  }
-}
-
-@media (min-width: 992px) {
-  .wrapper {
-    gap: 400px;
-  }
-  .listItem {
-    font-size: 18px;
-   /*  color: brown; */
-  }
-  .right .list {
-    gap: 50px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .wrapper {
-    gap: 520px;
-  }
-  .right .list {
-    gap: 55px;
-  }
-  .listItem {
-   /*  color: green; */
-  }
-}
-
-@media only screen and (min-width: 1300px) {
-  .wrapper {
-    gap: 540px;
-  }
-  .right .list {
-    gap: 50px;
-  }
-  .listItem {
-   /*  color: burlywood; */
-  }
-}
-
-@media only screen and (min-width: 1400px) {
-  .wrapper {
-    gap: 550px;
-  }
-
-  .right .list {
-    gap: 40px;
-  }
-  .listItem {
-   /*  color: khaki; */
-  }
-}
-
-@media only screen and (min-width: 1600px) {
-  .right .list {
-    gap: 40px;
-  }
-  .listItem {
-   /*  color: greenyellow; */
+@media only screen and (min-width: 1200px) {
+  .hide {
+    display: none;
   }
 }

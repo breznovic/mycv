@@ -2,7 +2,7 @@ import s from "./Burger.module.css";
 
 const Burger = () => {
   return (
-    <div className={s.hide}>
+    <>
       <label>
         <input type="checkbox" />
         <span className={s.menu}>
@@ -26,7 +26,7 @@ const Burger = () => {
           </li>
         </ul>
       </label>
-    </div>
+    </>
   );
 };
 

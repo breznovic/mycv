@@ -71,7 +71,7 @@
 
 @media only screen and (max-width: 600px) {
   .wrapper {
-    /*  color: navy; */
+    /* color: navy; */
     padding-top: 40px;
   }
 
@@ -94,8 +94,8 @@
   }
 
   .right img {
-    height: 410px;
-    width: 340px;
+    height: 490px;
+    width: 420px;
     object-fit: cover;
   }
 
@@ -106,9 +106,25 @@
   }
 }
 
+@media only screen and (width: 375px) and (height: 667px) {
+  .wrapper {
+    /* color: lawngreen; */
+  }
+  .button {
+    font-size: 15px;
+    padding: 23px 55px;
+    margin: 15px 0px 0px 75px;
+  }
+  .right img {
+    height: 440px;
+    width: 345px;
+    object-fit: cover;
+  }
+}
+
 @media only screen and (width: 414px) and (height: 896px) {
   .wrapper {
-    /*  color: salmon */
+    /* color: salmon; */
   }
   .button {
     font-size: 15px;
@@ -148,7 +164,7 @@
 
 @media only screen and (width: 430px) and (height: 932px) {
   .wrapper {
-    /*   color: aqua; */
+   /*  color: aqua; */
   }
 
   .button {
@@ -166,7 +182,7 @@
 
 @media only screen and (width: 360px) and (height: 740px) {
   .wrapper {
-    /* color: gold; */
+   /*  color: gold; */
   }
 
   .button {
@@ -184,7 +200,7 @@
 
 @media only screen and (width: 412px) and (height: 915px) {
   .wrapper {
-    /*  color: gold; */
+   /*  color: gainsboro; */
   }
 
   .button {
@@ -217,7 +233,7 @@
 @media only screen and (min-width: 600px) {
   .wrapper {
     padding-top: 60px;
-    /*  color: greenyellow; */
+   /*  color: greenyellow; */
   }
   .left .title {
     font-size: 28px;
@@ -246,7 +262,7 @@
 
 @media (min-width: 768px) {
   .wrapper {
-    /*  color: yellow; */
+   /*  color: yellow; */
     padding-top: 60px;
   }
   .left .title {
@@ -276,7 +292,7 @@
 @media only screen and (min-width: 992px) {
   .wrapper > * {
     width: 50%;
-    /*  color: blue; */
+   /*  color: blue; */
     padding-left: 20px;
   }
   .left .title {
@@ -335,7 +351,7 @@
 @media only screen and (min-width: 1400px) {
   .wrapper > * {
     width: 50%;
-   /*  color: rgb(128, 0, 128); */
+    /*  color: rgb(128, 0, 128); */
     padding: 75px 0px 0px 90px;
   }
   .left .title {

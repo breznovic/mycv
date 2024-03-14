@@ -91,7 +91,7 @@
 
 @media only screen and (max-width: 600px) {
   .sides {
-    /*  background-color: navy; */
+    /* background-color: navy; */
   }
 
   .title {
@@ -139,7 +139,7 @@
 
 @media only screen and (width: 414px) and (height: 896px) {
   .sides {
-    /*  background-color: maroon; */
+    /* background-color: maroon; */
     margin: 40px 0px 0px auto;
   }
 
@@ -159,7 +159,7 @@
 
 @media only screen and (width: 390px) and (height: 844px) {
   .sides {
-    /*    background-color: sandybrown; */
+    /* background-color: sandybrown; */
     margin: 50px 0px 0px auto;
   }
 
@@ -207,8 +207,37 @@
 
 @media only screen and (min-width: 600px) {
   .sides {
-    /* background-color: green; */
+    /*  background-color: green; */
     margin: 20px 0px 0px auto;
+  }
+  .cards {
+    gap: 10px;
+  }
+  .cards div {
+    flex: 50%;
+  }
+  .icon {
+    font-size: 24px;
+    margin-left: 145px;
+  }
+  .cardInfo {
+    font-size: 21px;
+  }
+  .card {
+    margin: 10px 0px 10px 0px;
+  }
+  .cardText {
+    margin-left: 10px;
+  }
+  .cardData {
+    margin-right: 340px;
+  }
+}
+
+@media (min-width: 755px) {
+  .sides {
+    /*  background-color: darkcyan; */
+    margin: 50px 0px 0px 0px;
   }
   .cards {
     gap: 20px;
@@ -216,24 +245,51 @@
   .cards div {
     flex: 50%;
   }
+  .icon {
+    font-size: 22px;
+    margin-left: 145px;
+  }
+
+  .cardInfo {
+    font-size: 19px;
+  }
   .card {
     margin: 10px 0px 10px 0px;
+  }
+  .cardText {
+    margin-left: 10px;
+  }
+  .cardData {
+    margin-right: 340px;
   }
 }
 
 @media (min-width: 768px) {
   .sides {
     /* background-color: yellow; */
-    margin: 50px 0px 0px 0px;
+    margin: 30px 0px 0px 0px;
   }
   .cards {
-    gap: 20px;
+    gap: 10px;
   }
   .cards div {
-    flex: 25%;
+    flex: 50%;
+  }
+  .icon {
+    font-size: 22px;
+    margin-left: 145px;
+  }
+  .cardInfo {
+    font-size: 19px;
   }
   .card {
     margin: 10px 0px 10px 0px;
+  }
+  .cardText {
+    margin-left: 10px;
+  }
+  .cardData {
+    margin-right: 340px;
   }
 }
 
@@ -270,35 +326,116 @@
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media (min-width: 800px) {
   .sides {
-    /*  background-color: blue; */
-    margin: 50px 0px 0px 0px;
+    /*  background-color: skyblue; */
+    margin: 100px 0px 0px 0px;
   }
   .cards {
-    gap: 20px;
+    gap: 60px;
   }
   .cards div {
-    flex: 25%;
+    flex: 28%;
+  }
+  .icon {
+    font-size: 20px;
+    margin-left: 175px;
+  }
+
+  .cardInfo {
+    font-size: 18px;
   }
   .card {
     margin: 10px 0px 10px 0px;
+  }
+  .cardText {
+    margin-left: 7px;
+  }
+  .cardData {
+    margin-right: 375px;
+  }
+}
+
+@media (min-width: 850px) {
+  .sides {
+    /*   background-color: palevioletred; */
+    margin: 100px 0px 0px 0px;
+  }
+  .cards {
+    gap: 80px;
+  }
+  .cards div {
+    flex: 28%;
+  }
+  .icon {
+    font-size: 20px;
+    margin-left: 175px;
+  }
+
+  .cardInfo {
+    font-size: 18px;
+  }
+  .card {
+    margin: 10px 0px 10px 0px;
+  }
+  .cardText {
+    margin-left: 7px;
+  }
+  .cardData {
+    margin-right: 375px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .sides {
+    /*  background-color: blue; */
+    margin: 100px 0px 0px 0px;
+  }
+  .cards {
+    gap: 100px;
+  }
+  .cards div {
+    flex: 28%;
+  }
+  .card {
+    margin: 10px 0px 10px 0px;
+  }
+
+  .icon {
+    font-size: 25px;
+    margin-left: 40px;
+  }
+
+  .cardInfo {
+    font-size: 21px;
+  }
+  .cardText {
+    margin-left: 8px;
+  }
+  .cardData {
+    margin-right: 290px;
   }
 }
 
 @media only screen and (min-width: 1150px) {
   .sides {
     /* background-color: red; */
-    margin: 50px 0px 0px auto;
+    margin: 100px 0px 0px 0px;
   }
   .cards {
-    gap: 50px;
+    gap: 100px;
   }
   .cards div {
-    flex: 25%;
+    flex: 28%;
   }
   .card {
     margin: 10px 0px 10px 0px;
+  }
+  .cardText {
+    margin-left: 10px;
+  }
+  .cardData {
+    margin-right: 290px;
   }
 }
 
@@ -311,21 +448,33 @@
     gap: 120px;
   }
   .cards div {
-    flex: 25%;
+    flex: 28%;
   }
   .card {
     margin: 10px 0px 10px 0px;
+  }
+  .cardText {
+    margin-left: 10px;
+  }
+  .cardData {
+    margin-right: 290px;
   }
 }
 
 @media only screen and (min-width: 1800px) {
   .sides {
-    /* background-color: salmon; */
+    /*  background-color: salmon; */
   }
   .cards {
     gap: 140px;
   }
   .cards div {
-    flex: 25%;
+    flex: 27%;
+  }
+  .cardText {
+    margin-left: 10px;
+  }
+  .cardData {
+    margin-right: 290px;
   }
 }
