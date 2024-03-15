@@ -10,17 +10,18 @@
   white-space: nowrap;
   animation: slideIn 1s forwards;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  justify-items: center;
 }
 
 .wrapper {
-  width: 95%;
-  margin: 0 auto;
-  padding: 30px 50px;
+  position: relative;
+  height: 50px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+}
+
+.name {
+  margin-left: 10px;
 }
 
 .name h2 {
@@ -54,6 +55,9 @@
   color: #0a1acf;
 }
 
+.hide {
+}
+
 @keyframes slideIn {
   from {
     transform: translateX(-100%);
@@ -67,8 +71,10 @@
   .right {
     display: none;
   }
-  .name {
-    margin-right: 260px;
+  .hide {
+    display: flex;
+    justify-items: center;
+    align-items: center;
   }
 }
 
@@ -85,11 +91,51 @@
   .hide {
     display: none;
   }
+  .wrapper {
+    width: 73%;
+    justify-content: space-around;
+    gap: 170px;
+  }
+  .name {
+    margin-left: 20px;
+  }
+
+  .name h2 {
+    font-size: 21px;
+  }
+
+  .right .list {
+    gap: 41px;
+  }
+
+  .listItem {
+    font-size: 15.5px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .hide {
     display: none;
+  }
+  .wrapper {
+    width: 85%;
+    justify-content: space-around;
+    gap: 240px;
+  }
+  .name {
+    margin-left: 70px;
+  }
+
+  .name h2 {
+    font-size: 23px;
+  }
+
+  .right .list {
+    gap: 47px;
+  }
+
+  .listItem {
+    font-size: 17px;
   }
 }
 
@@ -97,10 +143,39 @@
   .hide {
     display: none;
   }
+  .wrapper {
+    width: 100%;
+    justify-content: space-around;
+    gap: 350px;
+  }
+  .name {
+    margin-left: 70px;
+  }
+
+  .name h2 {
+    font-size: 23px;
+  }
+  .right .list {
+    gap: 50px;
+  }
+
+  .listItem {
+    font-size: 17px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
   .hide {
     display: none;
+  }
+  .wrapper {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .name {
+    margin-left: 70px;
+  }
+  .right .list {
+    gap: 30px;
   }
 }
