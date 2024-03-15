@@ -8,19 +8,19 @@ const Main = () => {
   return (
     <section id="about" className={s.container}>
       <div className={s.wrapper}>
-        <div className={s.left}>
+        <div className={s.info}>
           <Fade top>
             <h2 className={s.title}>Hi, I am Evgeniy Berezkin</h2>
           </Fade>
           <Jump>
             <h4 className={s.subtitle}>Front-end Developer</h4>
           </Jump>
-          <p className={s.description}>
+          <p>
             I possess strong skills in developing responsive and user-friendly
             web applications and enjoy the process of translating design
             concepts into fully functional and interactive websites.
           </p>
-          <p className={s.description}>
+          <p>
             I have experience working with React and TypeScript and constantly
             strive to learn and stay up-to-date with the latest web development
             trends and best practices.
@@ -29,11 +29,11 @@ const Main = () => {
             You can download my CV to get a more detailed understanding of my
             competence in front-end development.
           </p> */}
-          <p className={s.description}>
+          <p>
             By clicking on the link below, you can get a more detailed overview
             of my skills.
           </p>
-          <div>
+          <div className={s.buttonContainer}>
             {/*  <button className={s.button}>Download my CV</button> */}
             <a
               href="https://hh.ru/resume/2bb77c5aff0963f02a0039ed1f314f73397563"
@@ -44,7 +44,7 @@ const Main = () => {
             </a>
           </div>
         </div>
-        <div className={s.right}>{<img src={photo} />}</div>
+        <div className={s.photo}>{<img src={photo} />}</div>
       </div>
     </section>
   );

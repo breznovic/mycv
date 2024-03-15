@@ -20,9 +20,6 @@ const Navbar = () => {
               </a>
             </li>
             <li className={s.listItem}>
-              <a href="#about">About Me</a>
-            </li>
-            <li className={s.listItem}>
               <a href="#skills">My skills</a>
             </li>
             <li className={s.listItem}>

@@ -13,9 +13,6 @@ const Burger = () => {
             <a href="#">Home</a>
           </li>
           <li>
-            <a href="#about">About Me</a>
-          </li>
-          <li>
             <a href="#skills">My skills</a>
           </li>
           <li>
