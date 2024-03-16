@@ -51,8 +51,8 @@
 
 .buttonContainer {
   display: flex;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
   padding-top: 80px;
 }
 
@@ -85,19 +85,260 @@
 }
 
 @media only screen and (max-width: 375px) {
+  .container {
+    min-height: 667px;
+  }
+  .wrapper {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px 0px 0px 10px;
+    gap: 8px;
+  }
+
+  .info {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .info .title {
+    margin: 0px 0px 5px 0px;
+    font-size: 20px;
+  }
+  .info .subtitle {
+    margin: 0px 0px 5px 0px;
+    font-size: 17px;
+  }
+
+  .info p {
+    margin: 0px 0px 8px 0px;
+    font-size: 16px;
+  }
+
+  .photo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .photo img {
+    height: 280px;
+    width: 220px;
+  }
+
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4px;
+  }
+
+  .button {
+    text-wrap: nowrap;
+    background-color: #1721ad;
+    color: #fff;
+    font-size: 13px;
+    padding: 18px 25px;
+  }
 }
 
 @media only screen and (max-width: 575.98px) {
+  .container {
+    max-height: 896px;
+  }
+  .wrapper {
+    width: 97%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px 0px 0px 15px;
+    gap: 30px;
+  }
+
+  .info {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .info .title {
+    margin: 0px 0px 15px 0px;
+    font-size: 21px;
+  }
+  .info .subtitle {
+    margin: 0px 0px 15px 0px;
+    font-size: 18px;
+  }
+
+  .info p {
+    margin: 0px 0px 10px 0px;
+    font-size: 17px;
+  }
+
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+  }
+
+  .button {
+    text-wrap: nowrap;
+    background-color: #1721ad;
+    color: #fff;
+    font-size: 15px;
+    padding: 21px 25px;
+  }
+
+  .photo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .photo img {
+    height: 350px;
+    width: 290px;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .container {
+    max-height: 896px;
+    color: yellow;
+  }
+  .wrapper {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px 0px 0px 50px;
+    gap: 30px;
+  }
+
+  .info {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .info .title {
+    margin: 0px 0px 15px 0px;
+    font-size: 21px;
+  }
+  .info .subtitle {
+    margin: 0px 0px 15px 0px;
+    font-size: 18px;
+  }
+
+  .info p {
+    margin: 0px 0px 10px 0px;
+    font-size: 17px;
+  }
+
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+  }
+
+  .button {
+    font-size: 15px;
+    padding: 21px 25px;
+  }
+
+  .photo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .photo img {
+    height: 490px;
+    width: 400px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+
+  .wrapper {
+    width: 77%;
+    display: flex;
+    justify-content: center;
+    padding: 70px 0px 0px 30px;
+    gap: 50px;
+  }
+
+  .info {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .info .title {
+    margin: 10px 0px 20px 0px;
+    font-size: 23px;
+  }
+  .info .subtitle {
+    margin: 0px 0px 20px 0px;
+    font-size: 21px;
+  }
+
+  .info p {
+    margin: 0px 0px 15px 0px;
+    font-size: 20px;
+  }
+
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+  }
+
+  .button {
+    padding: 25px 35px;
+  }
+
+  .photo img {
+    height: 550px;
+    width: 440px;
+  }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
-}
+ 
+  .wrapper {
+    width: 77%;
+    display: flex;
+    justify-content: center;
+    padding: 70px 0px 0px 70px;
+    gap: 70px;
+  }
 
-@media only screen and (min-width: 1200px) {
+  .info {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .info .title {
+    margin: 10px 0px 25px 0px;
+    font-size: 23px;
+  }
+  .info .subtitle {
+    margin: 0px 0px 25px 0px;
+    font-size: 21px;
+  }
+
+  .info p {
+    margin: 0px 0px 20px 0px;
+    font-size: 20px;
+  }
+
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+  }
+
+  .button {
+    padding: 25px 35px;
+  }
+
+  .photo img {
+    height: 550px;
+    width: 450px;
+  }
 }
