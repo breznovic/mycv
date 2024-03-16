@@ -31,7 +31,7 @@
 }
 
 .right {
-  margin-right: 130px;
+  margin-right: 150px;
 }
 
 .right .list {
@@ -92,12 +92,11 @@
     display: none;
   }
   .wrapper {
-    width: 73%;
     justify-content: space-around;
-    gap: 170px;
+    gap: 180px;
   }
   .name {
-    margin-left: 20px;
+    margin-left: 50px;
   }
 
   .name h2 {
@@ -105,11 +104,11 @@
   }
 
   .right .list {
-    gap: 41px;
+    gap: 35px;
   }
 
   .listItem {
-    font-size: 15.5px;
+    font-size: 16px;
   }
 }
 
@@ -118,24 +117,11 @@
     display: none;
   }
   .wrapper {
-    width: 85%;
     justify-content: space-around;
     gap: 240px;
   }
   .name {
     margin-left: 70px;
-  }
-
-  .name h2 {
-    font-size: 23px;
-  }
-
-  .right .list {
-    gap: 47px;
-  }
-
-  .listItem {
-    font-size: 17px;
   }
 }
 
@@ -144,23 +130,10 @@
     display: none;
   }
   .wrapper {
-    width: 100%;
-    justify-content: space-around;
     gap: 350px;
   }
   .name {
     margin-left: 70px;
-  }
-
-  .name h2 {
-    font-size: 23px;
-  }
-  .right .list {
-    gap: 50px;
-  }
-
-  .listItem {
-    font-size: 17px;
   }
 }
 
@@ -173,8 +146,9 @@
     justify-content: space-between;
   }
   .name {
-    margin-left: 70px;
+    margin-left: 150px;
   }
+
   .right .list {
     gap: 30px;
   }

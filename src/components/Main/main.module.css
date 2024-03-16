@@ -12,11 +12,11 @@
   justify-content: space-around;
   flex-direction: row;
   padding: 60px 0px 0px 150px;
-  gap: 175px;
+  gap: 155px;
 }
 
 .info {
-  margin: 50px 0px 0px 0px;
+  margin: 20px 0px 0px 0px;
 }
 
 .photo {
@@ -24,21 +24,21 @@
 }
 
 .photo img {
-  height: 800px;
-  width: 600px;
+  height: 720px;
+  width: 560px;
 }
 
 .info .title {
   animation: fall-and-bounce 1s ease-in-out forwards;
   animation-delay: 0.5s;
-  margin: 0px 0px 20px 0px;
-  font-size: 26px;
+  margin: 0px 0px 35px 0px;
+  font-size: 28px;
 }
 .info .subtitle {
   animation: fall-and-bounce 1s ease-in-out forwards;
   animation-delay: 1s;
-  margin: 0px 0px 20px 0px;
-  font-size: 20px;
+  margin: 0px 0px 35px 0px;
+  font-size: 22px;
 }
 
 .info p {
@@ -46,7 +46,7 @@
   text-align: justify;
   animation: emergence 2s ease-in;
   margin: 0px 0px 15px 0px;
-  font-size: 21px;
+  font-size: 23px;
 }
 
 .buttonContainer {
