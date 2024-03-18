@@ -21,7 +21,7 @@ const Slider = () => {
       description:
         "A fantasy game about the adventures of troll Thorvald, developed using TypeScript, Redux Toolkit and React Router",
       link: "https://github.com/breznovic/thorvald",
-      deploy: "https://thorvald-a7vt0pgue-breznovics-projects.vercel.app/",
+      deploy: "https://trollgame.vercel.app/",
     },
     {
       title: "Todolist",
@@ -35,7 +35,7 @@ const Slider = () => {
       description:
         "An application for learning foreign languages created using TypeScript, Redux Toolkit and React Router",
       link: "https://github.com/breznovic/langish",
-      deploy: "https://langish-32h641gf7-breznovics-projects.vercel.app/",
+      deploy: "https://langish.vercel.app/",
     },
   ];
 
