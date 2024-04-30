@@ -43,7 +43,7 @@ const Slider = () => {
 
   const currentApp = apps[activeIndex];
 
-  const interval = 5000;
+  const interval = 6000;
 
   useEffect(() => {
     const autoPlayInterval = setInterval(nextSlide, interval);

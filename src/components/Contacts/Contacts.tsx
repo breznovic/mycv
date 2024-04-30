@@ -37,8 +37,8 @@ const Contacts = () => {
                   </div>
                   <div className={s.cardData}>
                     <span>Email:</span>
-                    <a href="mailto:slymarkel@gmail.com" className={s.cardText}>
-                      slymarkel@gmail.com
+                    <a href="mailto:breznovic@mail.ru" className={s.cardText}>
+                      breznovic@mail.ru
                     </a>
                   </div>
                 </div>
