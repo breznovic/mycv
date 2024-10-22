@@ -4,7 +4,7 @@ label .menu {
   top: -112px;
   z-index: 100;
   width: 100px;
-  height: 80px;
+  height: 100px;
   background: #fff;
   transition: 0.5s ease-in-out;
   box-shadow: 0 0 0 0 #fff, 0 0 0 0 #fff;
@@ -16,7 +16,7 @@ label .burger {
   top: 135px;
   left: 50px;
   width: 30px;
-  height: 3px;
+  height: 4px;
   background: #0a1acf;
   display: block;
   transform-origin: center;
@@ -85,6 +85,5 @@ label a {
   display: block;
   text-decoration: none;
   color: #0a1acf;
-  font-size: 20px;
+  font-size: 25px;
 }
-

@@ -1,4 +1,3 @@
-
 import Burger from "../Burger/Burger";
 import s from "./Nav.module.css";
 
@@ -11,9 +10,9 @@ const Navbar = () => {
     <div className={s.container}>
       <div className={s.wrapper}>
         <div className={s.name}>
-          <h2 onClick={scrollToTop}>Evgeniy Berezkin</h2>
+          <h1 onClick={scrollToTop}>Evgeniy Berezkin</h1>
         </div>
-        <div className={s.right}>
+        <div className={s.menu}>
           <ul className={s.list}>
             <li className={s.listItem}>
               <a onClick={scrollToTop} href="#">
