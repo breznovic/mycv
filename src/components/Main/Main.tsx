@@ -1,5 +1,5 @@
 import s from "./Main.module.css";
-import photo from "../../assets/myPhoto.jpg";
+import photo from "../../assets/images/myPhoto.jpg";
 
 const Main = () => {
   return (
