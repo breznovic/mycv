@@ -57,4 +57,4 @@ export const skillsData: Skill[] = [
   },
 ];
 
-export const skillsDescription: string[] = [];
+

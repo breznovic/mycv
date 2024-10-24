@@ -1,39 +1,16 @@
-import { ReactElement, useRef, useEffect, useState } from "react";
+import { ReactElement } from "react";
 import s from "./Skill.module.css";
+import useIntersectionObserver from "../../../lib/useIntersectionObserver";
 
 const Skill = (props: {
   title: string;
   icon: ReactElement<string, string> | undefined;
   description: string;
 }) => {
-  const cardRef = useRef<HTMLDivElement>(null);
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-          observer.unobserve(entry.target);
-        } else {
-          setIsVisible(false);
-        }
-      });
-    });
-
-    if (cardRef.current) {
-      observer.observe(cardRef.current);
-    }
-
-    return () => {
-      if (cardRef.current) {
-        observer.unobserve(cardRef.current);
-      }
-    };
-  }, []);
+  const { elementRef, isVisible } = useIntersectionObserver();
 
   return (
-    <div ref={cardRef} className={`${s.card} ${isVisible ? s.visible : ""}`}>
+    <div ref={elementRef} className={`${s.card} ${isVisible ? s.visible : ""}`}>
       <div className={s.top}>
         {props.icon}
         <span>{props.title}</span>
