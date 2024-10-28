@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import s from "./Slider.module.css";
 import thorvald from "../../../assets/images/thorvaldClicker.png";
-import todolist from "../../../assets/images/todolist.png";
 import langish from "../../../assets/images/langish.png";
 import hacker from "../../../assets/images/hacker.png";
 
@@ -13,7 +12,7 @@ type AppType = {
 };
 
 const Slider = () => {
-  let images = [thorvald, todolist, langish, hacker];
+  let images = [thorvald, langish, hacker];
   let apps: AppType[] = [
     {
       title: "Thorvald clicker game",
@@ -21,13 +20,6 @@ const Slider = () => {
         "A fantasy game about the adventures of troll Thorvald, developed using TypeScript, Redux Toolkit and React Router",
       link: "https://github.com/breznovic/thorvald",
       deploy: "https://trollgame.vercel.app/",
-    },
-    {
-      title: "Todolist",
-      description:
-        "A simple but functional Todolist made using TypeScript, MUI, Redux Toolkit, Axios, React Router and Formik",
-      link: "https://github.com/breznovic/truetodo",
-      deploy: "https://truetodo.vercel.app/",
     },
     {
       title: "Langish",
