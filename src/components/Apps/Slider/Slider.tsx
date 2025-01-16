@@ -17,7 +17,7 @@ const Slider = () => {
     {
       title: "Thorvald clicker game",
       description:
-        "A fantasy game about the adventures of troll Thorvald, developed using TypeScript, Redux Toolkit and React Router",
+        "A fantasy game about the adventures of troll Thorvald, developed using TypeScript, React Router and Zustand",
       link: "https://github.com/breznovic/thorvald",
       deploy: "https://trollgame.vercel.app/",
     },
