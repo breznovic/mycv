@@ -3,6 +3,7 @@ import s from "./Slider.module.css";
 import thorvald from "../../../assets/images/thorvaldClicker.png";
 import langish from "../../../assets/images/langish.png";
 import hacker from "../../../assets/images/hacker.png";
+import spellbook from "../../../assets/images/spellbook.png";
 
 type AppType = {
   title: string;
@@ -12,7 +13,7 @@ type AppType = {
 };
 
 const Slider = () => {
-  let images = [thorvald, langish, hacker];
+  let images = [thorvald, langish, hacker, spellbook];
   let apps: AppType[] = [
     {
       title: "Thorvald clicker game",
@@ -34,6 +35,13 @@ const Slider = () => {
         "A Hacker News site clone created using TypeScript, Redux Toolkit, React Router, Axios and MUI",
       link: "https://github.com/breznovic/hacker-news",
       deploy: "https://hacker-news-six-drab.vercel.app/",
+    },
+    {
+      title: "Spell Book App",
+      description:
+        "App with a full CRUD cycle with my own FastAPI backend, created using Next.js and TypeScript",
+      link: "https://github.com/breznovic/spell-book",
+      deploy: "https://spell-book-nu.vercel.app/",
     },
   ];
 

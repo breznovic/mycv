@@ -10,7 +10,7 @@
 }
 
 .visible {
-  transform: rotate(360deg); 
+  transform: rotate(360deg);
 }
 
 @keyframes rotateAnimation1 {
@@ -72,7 +72,6 @@
   border-bottom: 1px solid #888;
   height: 25%;
   background-color: #e4e0e0;
-  cursor: pointer;
 }
 
 .card .top span {
