@@ -1,0 +1,52 @@
+.container {
+  min-height: 99.7vh;
+  width: 100%;
+  background-color: #1721ad;
+  padding-bottom: 20px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  height: 100%;
+  width: 80%;
+  padding-top: 80px;
+}
+
+.titles {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.subtitle {
+  color: rgb(211, 205, 205);
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.title {
+  color: #efefeff5;
+  font-weight: bold;
+  font-size: 56px;
+}
+
+.cards {
+  margin-top: 150px;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .cards {
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cards {
+    margin-top: 30px;
+  }
+}

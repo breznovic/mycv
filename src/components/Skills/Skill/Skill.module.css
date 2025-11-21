@@ -1,0 +1,128 @@
+.card {
+  border: 1px solid #777;
+  border-radius: 16px;
+  height: 255px;
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: transform 1s;
+}
+
+.visible {
+  transform: rotate(360deg);
+}
+
+@keyframes rotateAnimation1 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateAnimation2 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes rotateAnimation3 {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.card:nth-child(1) {
+  animation: rotateAnimation1 1s linear;
+}
+
+.card:nth-child(2) {
+  animation: rotateAnimation2 1s linear;
+}
+
+.card:nth-child(3) {
+  animation: rotateAnimation3 1s linear;
+}
+
+.card:nth-child(4) {
+  animation: rotateAnimation3 1s linear;
+}
+
+.card:nth-child(5) {
+  animation: rotateAnimation2 1s linear;
+}
+
+.card:nth-child(6) {
+  animation: rotateAnimation1 1s linear;
+}
+
+.card .top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px 15px;
+  border-bottom: 1px solid #888;
+  height: 25%;
+  background-color: #e4e0e0;
+}
+
+.card .top span {
+  font-size: 22px;
+  font-weight: 300;
+  color: #000;
+  display: flex;
+  margin-left: 25px;
+}
+
+.card .top:hover {
+  background-color: transparent;
+}
+
+.card .bottom {
+  color: #666;
+  text-wrap: pretty;
+  font-size: 25px;
+  margin: 30px 10px 0px 10px;
+}
+
+@media screen and (max-width: 1280px) {
+  .card {
+    height: 275px;
+  }
+
+  .card .bottom {
+    margin: 25px 10px 0px 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .card {
+    width: 41%;
+    height: 255px;
+  }
+
+  .card .bottom {
+    font-size: 23px;
+    margin: 25px 10px 10px 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .card {
+    width: 85%;
+  }
+}
