@@ -4,6 +4,7 @@ import thorvald from "../../../assets/images/thorvaldClicker.png";
 import langish from "../../../assets/images/langish.png";
 import hacker from "../../../assets/images/hacker.png";
 import spellbook from "../../../assets/images/spellbook.png";
+import squirrel from "../../../assets/images/squirell.png"
 import storyGenerator from "../../../assets/images/storyGenerator.png";
 
 type AppType = {
@@ -14,7 +15,7 @@ type AppType = {
 };
 
 const Slider = () => {
-  const images = [thorvald, langish, hacker, spellbook, storyGenerator];
+  const images = [thorvald, langish, hacker, spellbook, storyGenerator, squirrel];
   const apps: AppType[] = [
     {
       title: "Thorvald clicker game",
@@ -51,13 +52,20 @@ const Slider = () => {
       link: "https://github.com/breznovic/story-generator",
       deploy: "https://story-generator-zeta.vercel.app/",
     },
+    {
+      title: "Squirrel Blog",
+      description:
+        "A blog platform featuring custom Django API, RTK Query, infinite scroll, and theme switching",
+      link: "https://github.com/breznovic/squirrel-blog",
+      deploy: "https://squirrel-blog.vercel.app/",
+    },
   ];
 
   const [activeIndex, setActiveIndex] = useState(0);
 
   const currentApp = apps[activeIndex];
 
-  const interval = 7000;
+  const interval = 6000;
 
   useEffect(() => {
     const autoPlayInterval = setInterval(nextSlide, interval);
